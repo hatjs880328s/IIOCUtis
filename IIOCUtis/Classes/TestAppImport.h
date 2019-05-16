@@ -16,7 +16,6 @@
 
 #import "Test.h"
 
-#import <AFNetworking.h>
 #import <Mantle.h>
 #import <CoreData+MagicalRecord.h>
 
