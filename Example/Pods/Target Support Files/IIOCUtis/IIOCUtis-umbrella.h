@@ -17,8 +17,6 @@
 #import "Macros.h"
 #import "Product.h"
 #import "ServiceAPI.h"
-#import "Test.h"
-#import "TestAppImport.h"
 
 FOUNDATION_EXPORT double IIOCUtisVersionNumber;
 FOUNDATION_EXPORT const unsigned char IIOCUtisVersionString[];

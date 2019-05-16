@@ -7,26 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		035C09E5830764A1189A79C84B899F57 /* ServiceAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7D1E9D25EDD3289FCD627BB26E7488 /* ServiceAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1485ED5C285B726FEF31F4703C1287D7 /* Testbeta-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = EC74933F2573AE032934F6CA71BC0631 /* Testbeta-Info.plist */; };
-		1A5A81FFEF8357483E34EFA347E3934D /* Product.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D428F5E49C0530E9A1AAFD396312174 /* Product.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28CB2210E651E4D25E8E239717B882D9 /* IIOCUtis-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E44BACDDBCE3ACA1D41DB509045DAD /* IIOCUtis-dummy.m */; };
-		2A3D5E4778C598494A57A7A38AC4499B /* IIOCUtilsModule in Sources */ = {isa = PBXBuildFile; fileRef = CA4766FDBEA93BF0551F5E765BC5B5A3 /* IIOCUtilsModule */; };
+		0CBED358EF34172499161BCE40D9532A /* IIOCUtilsModule in Sources */ = {isa = PBXBuildFile; fileRef = 75A86370825ABDD06400D22A9D8D8DF5 /* IIOCUtilsModule */; };
 		2B190B50F5870CF168A20689CF1D921E /* Pods-IIOCUtis_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2885EEAB5CCA9730C9653C96F004278 /* Pods-IIOCUtis_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C37318D1CAA2B951A72C939E3FB8F12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		300DA2EBF875BEC98C378A7C792238F8 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 18AA338F991DE872899769F5C6FD2C53 /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EEA836E54E031359A69E9421DB3ACA9 /* Product.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA050B3569997EE6B457B97DDE7214E /* Product.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FB9AB68CCB4DE3BCF8E421D5FE663B4 /* IIOCUtis-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9E0B9FD12311C252139ED4D2714D19E /* IIOCUtis-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ADF3B020070126B01EB74F94CC3C6A8 /* Pods-IIOCUtis_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D800DD305C2521778ECD40CFB402153D /* Pods-IIOCUtis_Tests-dummy.m */; };
-		4C24505A09FDA4F1CA68D7A5F0138299 /* DBScript.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DA0F27029A8A2FC78F74CACD25C59E /* DBScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61F9D97D1E988203FE8670A37B97DA34 /* Pods-IIOCUtis_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B32D2C5A24075193733B05D12331C45D /* Pods-IIOCUtis_Example-dummy.m */; };
-		62CD3D6468D778CBAF320A74080DDC5A /* Macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB055D81C5F399F682BCD89203585B0 /* Macros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81327942FB8B51E5CCC72249765A5640 /* TestAppImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1494B59FA3E3FD6730126F1154BAB8 /* TestAppImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7767D8F6337EEEDC192A46BAB1BCC48F /* Enums.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A30481EF9BDD6C79B019D3E8124C27 /* Enums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8431DA42465FFBB73E5D9E55F57E9538 /* DBScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 832673056EB9FBD7F25FB72555DE79C0 /* DBScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86613947DB7E855F8B1E3A5EE7883962 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		8F5B9C845D93E616F78243BC35A8B4B9 /* IIOCUtis-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78289D084718304CC3635EB98B69A7AC /* IIOCUtis-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91651946D6AE6143AA7A8744CFD744A8 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 831A17777160928F146F1D2764A72EE6 /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FC2E6BF3BAAB80BB9DBFD7BA25AA816 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		B1C07BED919EE2B31D5CB0F841FAF5C2 /* CloudDiskDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 9077EB399BEEE17AB05ADB11841FBE4C /* CloudDiskDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4B35C111189B80F25976B73792F5D4D /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = F23BC7A8509FDC3131D67CBA6384B8D4 /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9298123697ACC8197C4D04B8419CD534 /* ServiceAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 544BE0DDBEFC6924B563828294406A2B /* ServiceAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		992D2042E3A8E427E091FFBD01176D80 /* CloudDiskDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = B408B572654202D96DE07D9CCB56711D /* CloudDiskDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A603B27B99F5B6B5965AE31D8B0E98EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A843AA2744C4D9A8F738104579169BC6 /* IIOCUtis-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1775A7E9B3235F07DAE347FB7A8AE220 /* IIOCUtis-dummy.m */; };
 		B5ABA2DB01C64DD5C61BE192D9317692 /* Pods-IIOCUtis_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 287228CDF36BDDFB1FBD3EDC06BE1D45 /* Pods-IIOCUtis_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF1E4A8D100F0E5BB26FFF840DB2F434 /* Enums.h in Headers */ = {isa = PBXBuildFile; fileRef = DE798C03A632C28C950B7B542FD94EA2 /* Enums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF70DD77DAE67BF800C08FD5C8F267FE /* Macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D6B395A47D2F8F96093D1E5A39662CC /* Macros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +31,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5031F9ADA77925FEA74D719379A49C25;
+			remoteGlobalIDString = C3E638DB1D94A38A53CCD1B4D9CE8546;
 			remoteInfo = IIOCUtis;
 		};
 		EA11181183D36BDC08CAAE11FF492437 /* PBXContainerItemProxy */ = {
@@ -47,48 +44,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01C6CE7B955E28580B853DD16777D331 /* IIOCUtis-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IIOCUtis-prefix.pch"; sourceTree = "<group>"; };
-		0D428F5E49C0530E9A1AAFD396312174 /* Product.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Product.h; path = IIOCUtis/Classes/Product.h; sourceTree = "<group>"; };
+		03A5E64F52AE990E4B920DFC23A65877 /* IIOCUtis-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IIOCUtis-Info.plist"; sourceTree = "<group>"; };
+		0596BFCC6220A1D2DDB74F491FAA04F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0E8A2A97598639F84D2E729765A30A1F /* Pods_IIOCUtis_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IIOCUtis_Tests.framework; path = "Pods-IIOCUtis_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1775A7E9B3235F07DAE347FB7A8AE220 /* IIOCUtis-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IIOCUtis-dummy.m"; sourceTree = "<group>"; };
 		17B4EE31AA2F56E3881F2E52932C7D09 /* Pods-IIOCUtis_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IIOCUtis_Example.modulemap"; sourceTree = "<group>"; };
+		17D03C7A969FE28E7BD85497C986D5BB /* IIOCUtis.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IIOCUtis.xcconfig; sourceTree = "<group>"; };
+		18AA338F991DE872899769F5C6FD2C53 /* Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = IIOCUtis/Classes/Constants.h; sourceTree = "<group>"; };
+		1DD99C271CD94C2886F55133F8AFE523 /* IIOCUtis.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IIOCUtis.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		287228CDF36BDDFB1FBD3EDC06BE1D45 /* Pods-IIOCUtis_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IIOCUtis_Example-umbrella.h"; sourceTree = "<group>"; };
 		3970FA2DDD06638389C0D480FACB0AE6 /* Pods-IIOCUtis_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIOCUtis_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3CB055D81C5F399F682BCD89203585B0 /* Macros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = IIOCUtis/Classes/Macros.h; sourceTree = "<group>"; };
 		4063C9C076ABF4A8BF9A06968510958C /* IIOCUtis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IIOCUtis.framework; path = IIOCUtis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E1494B59FA3E3FD6730126F1154BAB8 /* TestAppImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestAppImport.h; path = IIOCUtis/Classes/TestAppImport.h; sourceTree = "<group>"; };
-		618E15F30903E56C752AAEA707642591 /* IIOCUtis.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IIOCUtis.xcconfig; sourceTree = "<group>"; };
+		52EC9392A8935219C18C5BDAEE80018A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		544BE0DDBEFC6924B563828294406A2B /* ServiceAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServiceAPI.h; path = IIOCUtis/Classes/ServiceAPI.h; sourceTree = "<group>"; };
 		6B25283D88AE7DD4FD577C869EAAF84B /* Pods-IIOCUtis_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIOCUtis_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6CAD0DF4FA655118FD0C45DE49B39E20 /* Pods-IIOCUtis_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIOCUtis_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7254E4C4AF27FFFF34A3CF2E13447374 /* Pods_IIOCUtis_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IIOCUtis_Example.framework; path = "Pods-IIOCUtis_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		78289D084718304CC3635EB98B69A7AC /* IIOCUtis-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IIOCUtis-umbrella.h"; sourceTree = "<group>"; };
+		75A86370825ABDD06400D22A9D8D8DF5 /* IIOCUtilsModule */ = {isa = PBXFileReference; includeInIndex = 1; name = IIOCUtilsModule; path = IIOCUtis/Classes/IIOCUtilsModule; sourceTree = "<group>"; };
 		784BB04DE833862EC57D4ADF6177C9AD /* Pods-IIOCUtis_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIOCUtis_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7A8979B50F70514B2B480D7EB5519241 /* Pods-IIOCUtis_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IIOCUtis_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		831A17777160928F146F1D2764A72EE6 /* Test.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Test.h; path = IIOCUtis/Classes/Test.h; sourceTree = "<group>"; };
-		9077EB399BEEE17AB05ADB11841FBE4C /* CloudDiskDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudDiskDefine.h; path = IIOCUtis/Classes/CloudDiskDefine.h; sourceTree = "<group>"; };
+		7FA050B3569997EE6B457B97DDE7214E /* Product.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Product.h; path = IIOCUtis/Classes/Product.h; sourceTree = "<group>"; };
+		832673056EB9FBD7F25FB72555DE79C0 /* DBScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBScript.h; path = IIOCUtis/Classes/DBScript.h; sourceTree = "<group>"; };
 		9834C68DBB9262CD39F0425075D504CD /* Pods-IIOCUtis_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIOCUtis_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		98D1F19E5120AD12C515A9017FDAF570 /* IIOCUtis.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IIOCUtis.modulemap; sourceTree = "<group>"; };
+		9D6B395A47D2F8F96093D1E5A39662CC /* Macros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = IIOCUtis/Classes/Macros.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E621A268284C402401518E029C7BA41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A11C78E8779EC61BDA6B7A0E63BC686B /* Pods-IIOCUtis_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIOCUtis_Example-Info.plist"; sourceTree = "<group>"; };
-		A9D70DF6257992C87380BA4F54F0EC90 /* IIOCUtis.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IIOCUtis.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC386F45CA8CA53AAC609BF9472332F7 /* Pods-IIOCUtis_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IIOCUtis_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AD79EE871185F0697F56672FF75E2236 /* Pods-IIOCUtis_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIOCUtis_Tests-Info.plist"; sourceTree = "<group>"; };
-		B2E44BACDDBCE3ACA1D41DB509045DAD /* IIOCUtis-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IIOCUtis-dummy.m"; sourceTree = "<group>"; };
 		B32D2C5A24075193733B05D12331C45D /* Pods-IIOCUtis_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IIOCUtis_Example-dummy.m"; sourceTree = "<group>"; };
+		B408B572654202D96DE07D9CCB56711D /* CloudDiskDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudDiskDefine.h; path = IIOCUtis/Classes/CloudDiskDefine.h; sourceTree = "<group>"; };
 		BD47A3A46D45A1CB700A260CE6158436 /* Pods-IIOCUtis_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IIOCUtis_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C477F104ABB42832561EACA824BB4D76 /* IIOCUtis.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IIOCUtis.modulemap; sourceTree = "<group>"; };
-		C631B48EEE093F5AAAE49F5903D31380 /* IIOCUtis-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IIOCUtis-Info.plist"; sourceTree = "<group>"; };
-		CA4766FDBEA93BF0551F5E765BC5B5A3 /* IIOCUtilsModule */ = {isa = PBXFileReference; includeInIndex = 1; name = IIOCUtilsModule; path = IIOCUtis/Classes/IIOCUtilsModule; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D32F8864A5EF2B4210FFE340A425565F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D1A30481EF9BDD6C79B019D3E8124C27 /* Enums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Enums.h; path = IIOCUtis/Classes/Enums.h; sourceTree = "<group>"; };
 		D800DD305C2521778ECD40CFB402153D /* Pods-IIOCUtis_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IIOCUtis_Tests-dummy.m"; sourceTree = "<group>"; };
-		D9DA0F27029A8A2FC78F74CACD25C59E /* DBScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBScript.h; path = IIOCUtis/Classes/DBScript.h; sourceTree = "<group>"; };
 		DA1F2679D0708062F11B82ABF372675A /* Pods-IIOCUtis_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IIOCUtis_Tests.modulemap"; sourceTree = "<group>"; };
-		DE798C03A632C28C950B7B542FD94EA2 /* Enums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Enums.h; path = IIOCUtis/Classes/Enums.h; sourceTree = "<group>"; };
 		E2885EEAB5CCA9730C9653C96F004278 /* Pods-IIOCUtis_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IIOCUtis_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EC74933F2573AE032934F6CA71BC0631 /* Testbeta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Testbeta-Info.plist"; path = "IIOCUtis/Classes/Testbeta-Info.plist"; sourceTree = "<group>"; };
-		F23BC7A8509FDC3131D67CBA6384B8D4 /* Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = IIOCUtis/Classes/Constants.h; sourceTree = "<group>"; };
+		E9E0B9FD12311C252139ED4D2714D19E /* IIOCUtis-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IIOCUtis-umbrella.h"; sourceTree = "<group>"; };
+		EEACF8792FE8D510B853094AC8E074A8 /* IIOCUtis-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IIOCUtis-prefix.pch"; sourceTree = "<group>"; };
 		F25A4675F11BE9C94E3B0C78DB4CCCC3 /* Pods-IIOCUtis_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIOCUtis_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FB7D1E9D25EDD3289FCD627BB26E7488 /* ServiceAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServiceAPI.h; path = IIOCUtis/Classes/ServiceAPI.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +94,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E373157F4B0D8A723193E8B3F690F03 /* Frameworks */ = {
+		9A1F69866391C4A08376638141FB34F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FC2E6BF3BAAB80BB9DBFD7BA25AA816 /* Foundation.framework in Frameworks */,
+				A603B27B99F5B6B5965AE31D8B0E98EE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,12 +132,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		469178DD435A44F0DCF2AEB6BBC7192E /* Development Pods */ = {
+		6626D8B8FB152D5484DE9DC93487AA11 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C4515C730D72EF6C959B5FD3CF7F59BE /* IIOCUtis */,
+				1DD99C271CD94C2886F55133F8AFE523 /* IIOCUtis.podspec */,
+				52EC9392A8935219C18C5BDAEE80018A /* LICENSE */,
+				0596BFCC6220A1D2DDB74F491FAA04F3 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		79905C9A4A7E875A4A132695F8B5A427 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98D1F19E5120AD12C515A9017FDAF570 /* IIOCUtis.modulemap */,
+				17D03C7A969FE28E7BD85497C986D5BB /* IIOCUtis.xcconfig */,
+				1775A7E9B3235F07DAE347FB7A8AE220 /* IIOCUtis-dummy.m */,
+				03A5E64F52AE990E4B920DFC23A65877 /* IIOCUtis-Info.plist */,
+				EEACF8792FE8D510B853094AC8E074A8 /* IIOCUtis-prefix.pch */,
+				E9E0B9FD12311C252139ED4D2714D19E /* IIOCUtis-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/IIOCUtis";
 			sourceTree = "<group>";
 		};
 		80F0EE04A90BA81D16C88B982277B6BD /* Pods-IIOCUtis_Example */ = {
@@ -171,32 +181,37 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C4515C730D72EF6C959B5FD3CF7F59BE /* IIOCUtis */ = {
+		9C57D17784DB963DDEC5AAD1DB7633DC /* IIOCUtis */ = {
 			isa = PBXGroup;
 			children = (
-				9077EB399BEEE17AB05ADB11841FBE4C /* CloudDiskDefine.h */,
-				F23BC7A8509FDC3131D67CBA6384B8D4 /* Constants.h */,
-				D9DA0F27029A8A2FC78F74CACD25C59E /* DBScript.h */,
-				DE798C03A632C28C950B7B542FD94EA2 /* Enums.h */,
-				CA4766FDBEA93BF0551F5E765BC5B5A3 /* IIOCUtilsModule */,
-				3CB055D81C5F399F682BCD89203585B0 /* Macros.h */,
-				0D428F5E49C0530E9A1AAFD396312174 /* Product.h */,
-				FB7D1E9D25EDD3289FCD627BB26E7488 /* ServiceAPI.h */,
-				831A17777160928F146F1D2764A72EE6 /* Test.h */,
-				5E1494B59FA3E3FD6730126F1154BAB8 /* TestAppImport.h */,
-				EC74933F2573AE032934F6CA71BC0631 /* Testbeta-Info.plist */,
-				E3039145E8A861DCC545B70640A28245 /* Pod */,
-				FDA5B9C65F3070439C17B68C04F7624C /* Support Files */,
+				B408B572654202D96DE07D9CCB56711D /* CloudDiskDefine.h */,
+				18AA338F991DE872899769F5C6FD2C53 /* Constants.h */,
+				832673056EB9FBD7F25FB72555DE79C0 /* DBScript.h */,
+				D1A30481EF9BDD6C79B019D3E8124C27 /* Enums.h */,
+				75A86370825ABDD06400D22A9D8D8DF5 /* IIOCUtilsModule */,
+				9D6B395A47D2F8F96093D1E5A39662CC /* Macros.h */,
+				7FA050B3569997EE6B457B97DDE7214E /* Product.h */,
+				544BE0DDBEFC6924B563828294406A2B /* ServiceAPI.h */,
+				6626D8B8FB152D5484DE9DC93487AA11 /* Pod */,
+				79905C9A4A7E875A4A132695F8B5A427 /* Support Files */,
 			);
 			name = IIOCUtis;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		C4038BA38E70C690EF5B004C04891B77 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C57D17784DB963DDEC5AAD1DB7633DC /* IIOCUtis */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				469178DD435A44F0DCF2AEB6BBC7192E /* Development Pods */,
+				C4038BA38E70C690EF5B004C04891B77 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				3449DBFC9BF6EB88BEE8F7CE68261FE3 /* Products */,
 				16C5F61FE1CD09362E97DD0345D9C8C1 /* Targets Support Files */,
@@ -227,47 +242,21 @@
 			path = "Target Support Files/Pods-IIOCUtis_Tests";
 			sourceTree = "<group>";
 		};
-		E3039145E8A861DCC545B70640A28245 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A9D70DF6257992C87380BA4F54F0EC90 /* IIOCUtis.podspec */,
-				D32F8864A5EF2B4210FFE340A425565F /* LICENSE */,
-				9E621A268284C402401518E029C7BA41 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		FDA5B9C65F3070439C17B68C04F7624C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C477F104ABB42832561EACA824BB4D76 /* IIOCUtis.modulemap */,
-				618E15F30903E56C752AAEA707642591 /* IIOCUtis.xcconfig */,
-				B2E44BACDDBCE3ACA1D41DB509045DAD /* IIOCUtis-dummy.m */,
-				C631B48EEE093F5AAAE49F5903D31380 /* IIOCUtis-Info.plist */,
-				01C6CE7B955E28580B853DD16777D331 /* IIOCUtis-prefix.pch */,
-				78289D084718304CC3635EB98B69A7AC /* IIOCUtis-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/IIOCUtis";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A08D2629D8A6A940BB571FFEF68FF5F8 /* Headers */ = {
+		3F046AFDC977CA6E0BEDC8DC687FA1CE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1C07BED919EE2B31D5CB0F841FAF5C2 /* CloudDiskDefine.h in Headers */,
-				B4B35C111189B80F25976B73792F5D4D /* Constants.h in Headers */,
-				4C24505A09FDA4F1CA68D7A5F0138299 /* DBScript.h in Headers */,
-				CF1E4A8D100F0E5BB26FFF840DB2F434 /* Enums.h in Headers */,
-				8F5B9C845D93E616F78243BC35A8B4B9 /* IIOCUtis-umbrella.h in Headers */,
-				62CD3D6468D778CBAF320A74080DDC5A /* Macros.h in Headers */,
-				1A5A81FFEF8357483E34EFA347E3934D /* Product.h in Headers */,
-				035C09E5830764A1189A79C84B899F57 /* ServiceAPI.h in Headers */,
-				91651946D6AE6143AA7A8744CFD744A8 /* Test.h in Headers */,
-				81327942FB8B51E5CCC72249765A5640 /* TestAppImport.h in Headers */,
+				992D2042E3A8E427E091FFBD01176D80 /* CloudDiskDefine.h in Headers */,
+				300DA2EBF875BEC98C378A7C792238F8 /* Constants.h in Headers */,
+				8431DA42465FFBB73E5D9E55F57E9538 /* DBScript.h in Headers */,
+				7767D8F6337EEEDC192A46BAB1BCC48F /* Enums.h in Headers */,
+				3FB9AB68CCB4DE3BCF8E421D5FE663B4 /* IIOCUtis-umbrella.h in Headers */,
+				EF70DD77DAE67BF800C08FD5C8F267FE /* Macros.h in Headers */,
+				3EEA836E54E031359A69E9421DB3ACA9 /* Product.h in Headers */,
+				9298123697ACC8197C4D04B8419CD534 /* ServiceAPI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,24 +298,6 @@
 			productReference = 7254E4C4AF27FFFF34A3CF2E13447374 /* Pods_IIOCUtis_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5031F9ADA77925FEA74D719379A49C25 /* IIOCUtis */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 495B71452D4984ECBB1B6FF669127A15 /* Build configuration list for PBXNativeTarget "IIOCUtis" */;
-			buildPhases = (
-				A08D2629D8A6A940BB571FFEF68FF5F8 /* Headers */,
-				4EAD8E94821272AC87EC8F30C81B4FAD /* Sources */,
-				6E373157F4B0D8A723193E8B3F690F03 /* Frameworks */,
-				0CA4A38E35646C127040571262F1C60E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = IIOCUtis;
-			productName = IIOCUtis;
-			productReference = 4063C9C076ABF4A8BF9A06968510958C /* IIOCUtis.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		6BAA3152E1C87D6297CD0CA5B1749D24 /* Pods-IIOCUtis_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3372C1AAC94A2871186BE55ADADEB558 /* Build configuration list for PBXNativeTarget "Pods-IIOCUtis_Tests" */;
@@ -344,6 +315,24 @@
 			name = "Pods-IIOCUtis_Tests";
 			productName = "Pods-IIOCUtis_Tests";
 			productReference = 0E8A2A97598639F84D2E729765A30A1F /* Pods_IIOCUtis_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3E638DB1D94A38A53CCD1B4D9CE8546 /* IIOCUtis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E32942729EAA3FBF799A740FF7DBBE9D /* Build configuration list for PBXNativeTarget "IIOCUtis" */;
+			buildPhases = (
+				3F046AFDC977CA6E0BEDC8DC687FA1CE /* Headers */,
+				48CB88F5A1D1F188C5CB03B287433A94 /* Sources */,
+				9A1F69866391C4A08376638141FB34F8 /* Frameworks */,
+				E1C3E9A483051D98FC325D9C06FAB672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IIOCUtis;
+			productName = IIOCUtis;
+			productReference = 4063C9C076ABF4A8BF9A06968510958C /* IIOCUtis.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -367,7 +356,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5031F9ADA77925FEA74D719379A49C25 /* IIOCUtis */,
+				C3E638DB1D94A38A53CCD1B4D9CE8546 /* IIOCUtis */,
 				3EBB7BD6111950D90844413A0367BF07 /* Pods-IIOCUtis_Example */,
 				6BAA3152E1C87D6297CD0CA5B1749D24 /* Pods-IIOCUtis_Tests */,
 			);
@@ -375,13 +364,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0CA4A38E35646C127040571262F1C60E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		81614F30E0487C31A2DA22B272859970 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,24 +378,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1C3E9A483051D98FC325D9C06FAB672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		48CB88F5A1D1F188C5CB03B287433A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBED358EF34172499161BCE40D9532A /* IIOCUtilsModule in Sources */,
+				A843AA2744C4D9A8F738104579169BC6 /* IIOCUtis-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4BCE097C16F57154907F74BAFBF95AAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				61F9D97D1E988203FE8670A37B97DA34 /* Pods-IIOCUtis_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EAD8E94821272AC87EC8F30C81B4FAD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A3D5E4778C598494A57A7A38AC4499B /* IIOCUtilsModule in Sources */,
-				28CB2210E651E4D25E8E239717B882D9 /* IIOCUtis-dummy.m in Sources */,
-				1485ED5C285B726FEF31F4703C1287D7 /* Testbeta-Info.plist in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +425,7 @@
 		5BF9E8329D84DDCD8B63293DFC48A534 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IIOCUtis;
-			target = 5031F9ADA77925FEA74D719379A49C25 /* IIOCUtis */;
+			target = C3E638DB1D94A38A53CCD1B4D9CE8546 /* IIOCUtis */;
 			targetProxy = E5F544B7306626000ABBA4DACC140736 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -503,36 +491,6 @@
 			};
 			name = Release;
 		};
-		1044D686C8D71334E3CA8CA437B23EE4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 618E15F30903E56C752AAEA707642591 /* IIOCUtis.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IIOCUtis/IIOCUtis-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IIOCUtis/IIOCUtis-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IIOCUtis/IIOCUtis.modulemap";
-				PRODUCT_MODULE_NAME = IIOCUtis;
-				PRODUCT_NAME = IIOCUtis;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		172F93D69BD7AC8B10EFC0E0350F102D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6CAD0DF4FA655118FD0C45DE49B39E20 /* Pods-IIOCUtis_Tests.release.xcconfig */;
@@ -594,6 +552,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40D412E67ACE6C4A0E5120FAE1AF51FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D03C7A969FE28E7BD85497C986D5BB /* IIOCUtis.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IIOCUtis/IIOCUtis-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IIOCUtis/IIOCUtis-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IIOCUtis/IIOCUtis.modulemap";
+				PRODUCT_MODULE_NAME = IIOCUtis;
+				PRODUCT_NAME = IIOCUtis;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -698,37 +688,6 @@
 			};
 			name = Debug;
 		};
-		BF7C9569288AB0885AE1ADD9947669C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 618E15F30903E56C752AAEA707642591 /* IIOCUtis.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IIOCUtis/IIOCUtis-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IIOCUtis/IIOCUtis-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IIOCUtis/IIOCUtis.modulemap";
-				PRODUCT_MODULE_NAME = IIOCUtis;
-				PRODUCT_NAME = IIOCUtis;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		C296E2D72B3DFAE0A19E9BD16EBCD24A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 784BB04DE833862EC57D4ADF6177C9AD /* Pods-IIOCUtis_Example.debug.xcconfig */;
@@ -762,6 +721,37 @@
 			};
 			name = Debug;
 		};
+		D28DE45EAAB6FF9962F7EF2675868405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D03C7A969FE28E7BD85497C986D5BB /* IIOCUtis.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IIOCUtis/IIOCUtis-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IIOCUtis/IIOCUtis-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IIOCUtis/IIOCUtis.modulemap";
+				PRODUCT_MODULE_NAME = IIOCUtis;
+				PRODUCT_NAME = IIOCUtis;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -783,20 +773,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		495B71452D4984ECBB1B6FF669127A15 /* Build configuration list for PBXNativeTarget "IIOCUtis" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1044D686C8D71334E3CA8CA437B23EE4 /* Debug */,
-				BF7C9569288AB0885AE1ADD9947669C6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		7F444789E2A2E3C3D8231BCF6F369B8C /* Build configuration list for PBXNativeTarget "Pods-IIOCUtis_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C296E2D72B3DFAE0A19E9BD16EBCD24A /* Debug */,
 				3390FF8208452C737D55FEF0FC96ADD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E32942729EAA3FBF799A740FF7DBBE9D /* Build configuration list for PBXNativeTarget "IIOCUtis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28DE45EAAB6FF9962F7EF2675868405 /* Debug */,
+				40D412E67ACE6C4A0E5120FAE1AF51FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

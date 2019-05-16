@@ -1,5 +1,5 @@
 PODS:
-  - IIOCUtis (0.1.0)
+  - IIOCUtis (0.2.0)
 
 DEPENDENCIES:
   - IIOCUtis (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IIOCUtis: 5412a1328f608d166ccfe402d6641866ba07158f
+  IIOCUtis: 976ccf8b691e2dca97203c177a856c3785ddfc5d
 
 PODFILE CHECKSUM: 92d6debddfc2389a479ee6e6339a0197b599d12a
 
