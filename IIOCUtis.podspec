@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IIOCUtis'
-  s.version          = '0.7.0'
-  s.summary          = '记录oc中一些基础工具： 宏定义等信息'
+  s.version          = '0.8.0'
+  s.summary          = '记录oc中一些基础工具'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 IIOCUtis
-记录oc中一些基础工具： 宏定义等信息
+1.HUDProgress
                        DESC
 
   s.homepage         = 'https://github.com/hatjs880328s/IIOCUtis'
@@ -40,5 +40,6 @@ IIOCUtis
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'III18N'
+  s.dependency 'JGProgressHUD'
 end

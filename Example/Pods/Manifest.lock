@@ -1,16 +1,27 @@
 PODS:
-  - IIOCUtis (0.2.0)
+  - III18N (0.8.0)
+  - IIOCUtis (0.8.0):
+    - III18N
+    - JGProgressHUD
+  - JGProgressHUD (2.0.3)
 
 DEPENDENCIES:
   - IIOCUtis (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - III18N
+    - JGProgressHUD
 
 EXTERNAL SOURCES:
   IIOCUtis:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IIOCUtis: 976ccf8b691e2dca97203c177a856c3785ddfc5d
+  III18N: 89145d37dfb9153c1f6a4243657d07dd8033dc1b
+  IIOCUtis: 1f559c61e76d1d1902143bc686075cfbee506d17
+  JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
 
 PODFILE CHECKSUM: 92d6debddfc2389a479ee6e6339a0197b599d12a
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.0.rc.2

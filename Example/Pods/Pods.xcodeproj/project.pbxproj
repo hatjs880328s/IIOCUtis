@@ -7,98 +7,251 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CBED358EF34172499161BCE40D9532A /* IIOCUtilsModule in Sources */ = {isa = PBXBuildFile; fileRef = 75A86370825ABDD06400D22A9D8D8DF5 /* IIOCUtilsModule */; };
-		2B190B50F5870CF168A20689CF1D921E /* Pods-IIOCUtis_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2885EEAB5CCA9730C9653C96F004278 /* Pods-IIOCUtis_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C37318D1CAA2B951A72C939E3FB8F12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		300DA2EBF875BEC98C378A7C792238F8 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 18AA338F991DE872899769F5C6FD2C53 /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EEA836E54E031359A69E9421DB3ACA9 /* Product.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA050B3569997EE6B457B97DDE7214E /* Product.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FB9AB68CCB4DE3BCF8E421D5FE663B4 /* IIOCUtis-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9E0B9FD12311C252139ED4D2714D19E /* IIOCUtis-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ADF3B020070126B01EB74F94CC3C6A8 /* Pods-IIOCUtis_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D800DD305C2521778ECD40CFB402153D /* Pods-IIOCUtis_Tests-dummy.m */; };
-		61F9D97D1E988203FE8670A37B97DA34 /* Pods-IIOCUtis_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B32D2C5A24075193733B05D12331C45D /* Pods-IIOCUtis_Example-dummy.m */; };
-		7767D8F6337EEEDC192A46BAB1BCC48F /* Enums.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A30481EF9BDD6C79B019D3E8124C27 /* Enums.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8431DA42465FFBB73E5D9E55F57E9538 /* DBScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 832673056EB9FBD7F25FB72555DE79C0 /* DBScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86613947DB7E855F8B1E3A5EE7883962 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		9298123697ACC8197C4D04B8419CD534 /* ServiceAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 544BE0DDBEFC6924B563828294406A2B /* ServiceAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		992D2042E3A8E427E091FFBD01176D80 /* CloudDiskDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = B408B572654202D96DE07D9CCB56711D /* CloudDiskDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A603B27B99F5B6B5965AE31D8B0E98EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		A843AA2744C4D9A8F738104579169BC6 /* IIOCUtis-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1775A7E9B3235F07DAE347FB7A8AE220 /* IIOCUtis-dummy.m */; };
-		B5ABA2DB01C64DD5C61BE192D9317692 /* Pods-IIOCUtis_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 287228CDF36BDDFB1FBD3EDC06BE1D45 /* Pods-IIOCUtis_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF70DD77DAE67BF800C08FD5C8F267FE /* Macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D6B395A47D2F8F96093D1E5A39662CC /* Macros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		037127C96294A45721CED4EB34A031EA /* JGProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D76224037E17EEDE6F73FAF2C1EA45 /* JGProgressHUD.framework */; };
+		08064F5364D5ADA986145881CCC5B668 /* JGProgressHUDShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = 62B143262B0AFFF9F872AA04BF8B7898 /* JGProgressHUDShadow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08AC72A10D97900CF9D5829F11862B7F /* III18NService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495EFC07D73244DEC5C8150FEF955BD /* III18NService.swift */; };
+		13CC9FA0EF025C4F2BE1B9678361C028 /* JGProgressHUDErrorIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB23BD02D4A30D3FA7B01379144AECC1 /* JGProgressHUDErrorIndicatorView.m */; };
+		1864369A2987D8E68105A539C59189EA /* JGProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 820975BBD8C389A9AE95BF8BC118CF69 /* JGProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2013AACC1E5A5B13BAB88FB489CB688C /* jg_hud_success.png in Resources */ = {isa = PBXBuildFile; fileRef = 25FFA08A550E4AA6AE75E4ED9B1C6391 /* jg_hud_success.png */; };
+		28743BCEFB3C874D515CBC22B511FBE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB81F992899224A0150E9BFC4BB1DFE3 /* Foundation.framework */; };
+		28CE8489EC8398617CA181FA38079992 /* JGProgressHUDImageIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = C77C908E3345F5AD6BAAF172F7783EDE /* JGProgressHUDImageIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B190B50F5870CF168A20689CF1D921E /* Pods-IIOCUtis_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B75083CC39DD165E6F67C7EE89801EF4 /* Pods-IIOCUtis_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		400B1DD4E0DBEA0AF496CD027291FC97 /* IMPI18N.m in Sources */ = {isa = PBXBuildFile; fileRef = 0951AF6A26BF42AF2534BC4A10312333 /* IMPI18N.m */; };
+		410A9D9641A27EB691B2AADC627F7721 /* IIOCUtisModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC9F652F487754D6B506317688D753 /* IIOCUtisModule.swift */; };
+		414A45793600CA850FC1D2A305B1E79B /* III18N-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B804BBE2575353FC9556E81437387228 /* III18N-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41DF7E48A9C10EED4AE312DA5756C168 /* JGProgressHUDIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 10596CBAD1476FF8212A1E3DF2C09350 /* JGProgressHUDIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42AA6305185DCE5511C2121E7F8C553E /* ProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC91DC35751E2C598D8009EDB8A2FFA /* ProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45F72549C2CE71A21560D90AF13B5883 /* jg_hud_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2933A6CB0689E35A85C865D4A9E197 /* jg_hud_success@3x.png */; };
+		4ADF3B020070126B01EB74F94CC3C6A8 /* Pods-IIOCUtis_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F5A25CCB6A057FE172112A5D61F544 /* Pods-IIOCUtis_Tests-dummy.m */; };
+		57775D931EEF36326EFB401B0B1BA4A5 /* JGProgressHUDFadeZoomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B97CAADACB5A11E011456F0863272DAA /* JGProgressHUDFadeZoomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		582110458FE13C140EEABCB2A83D48E4 /* JGProgressHUDShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = A8244A6118E48444589825573A564038 /* JGProgressHUDShadow.m */; };
+		651E74D055AF5B878279956E565B98CE /* JGProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB3DF19D93146D26E553BAAC411F850 /* JGProgressHUD-dummy.m */; };
+		66BB0E61AD3A2DF3FBD67980E9A9752E /* JGProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DA567B230DA28C1D1369961E0CE9BA1D /* JGProgressHUD.bundle */; };
+		6B75B8DEA5E4847C6F47104D0040A70F /* IIOCUtis-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80174DAFC655BBA208E8370C59FA06AC /* IIOCUtis-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C010D15D2BB95B4EE74F8A90C30423B /* JGProgressHUDIndeterminateIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = B7568060CECFAC5FA37A0BE5D72A7E55 /* JGProgressHUDIndeterminateIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E56B5D7D8724DE7AABF146EE107770 /* III18N.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705BA4400733A805C426DFBD3F44F6E8 /* III18N.framework */; };
+		86613947DB7E855F8B1E3A5EE7883962 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB81F992899224A0150E9BFC4BB1DFE3 /* Foundation.framework */; };
+		90AB034202328B78351372701018A00A /* Pods-IIOCUtis_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B05C966856E985098820AE37BB84317 /* Pods-IIOCUtis_Example-dummy.m */; };
+		90FC42DDC4739785A7166DC7D8E942D4 /* JGProgressHUDFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE03C960C5E8235278930507B5E64D28 /* JGProgressHUDFadeAnimation.m */; };
+		97FC89448C90C8E8CA8FC4D31B674127 /* JGProgressHUDErrorIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = B70A74A947000BBA1E33933E2143897D /* JGProgressHUDErrorIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8C76107D3FA6BA28353EB4BACC023D /* JGProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 861DC612B3AF33C2501B5EDED1927587 /* JGProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CE9CBC207982DE0FCFA7F4AB8A222F8 /* JGProgressHUDImageIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C723E1C344D7376BF3423E74CE774C53 /* JGProgressHUDImageIndicatorView.m */; };
+		A3424FDF3EED172CF588AB51054639F5 /* JGProgressHUDIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E0524C5D383C9568885517B64011DF /* JGProgressHUDIndicatorView.m */; };
+		A67F1EC68AE2BC4594F0F3CC49774330 /* JGProgressHUDIndeterminateIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECBDA50D968B3FAF9BE0F8166A96F0B /* JGProgressHUDIndeterminateIndicatorView.m */; };
+		A933760037009A2F201775AE6D98A5AE /* IIL18NEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DB2F53C19895D80F1046645AE713BC /* IIL18NEnum.swift */; };
+		A9C2A823A85E15E61ED68DC3D3EE8D9D /* jg_hud_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AD239068C702D89CB1F2257D14F8C60 /* jg_hud_error@2x.png */; };
+		AA1B03DBE0FD71FE02CC198BD0F5E4EE /* jg_hud_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A01850B1B35CA853A51F04BAA4FAE92 /* jg_hud_error.png */; };
+		AD9281D80670D067C692F9A7BFDA476C /* III18N-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63518130386E3B64D7FC9DDC86F31558 /* III18N-dummy.m */; };
+		BA32729002B77E2073D80FB5CECC17E8 /* JGProgressHUDRingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B10C48B1DD002EC5AF5DDCA34B54FCB4 /* JGProgressHUDRingIndicatorView.m */; };
+		BA7A411BADF177E114AA151529262191 /* Pods-IIOCUtis_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F38A848AB57640CE28284A8092F71157 /* Pods-IIOCUtis_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C00C05D800D5396F0B8641BEC476E893 /* jg_hud_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5905BF4C3F3216574ABE7BA20BCF6D9 /* jg_hud_success@2x.png */; };
+		C5BBCC10326EE6DCBE3A3E4864B2541E /* JGProgressHUDSuccessIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A627F438383BD53FC8F21A336A9F24F /* JGProgressHUDSuccessIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6F293BAE3DBDCB073BFD6B3C898D592 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7D6D966AA12DC8FE1CDEBB7ACD7485 /* UIKit.framework */; };
+		CC083C1BF2DA18EF10A639E3B7139102 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5750C677B28C61D04C93236E1EA3B /* ProgressHUD.m */; };
+		CDF4AA8B2524A9FC4495393C7151EB21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB81F992899224A0150E9BFC4BB1DFE3 /* Foundation.framework */; };
+		CE586461447C20467EEE10C57D69957E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB81F992899224A0150E9BFC4BB1DFE3 /* Foundation.framework */; };
+		D066467F04D6C345B4C09B1DB534CBBB /* JGProgressHUD-Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = B98DAFD7FEF0ADEE126BC0F264BBBDCB /* JGProgressHUD-Defines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D09DFD359128CE7529A5FFD0414F4407 /* JGProgressHUDRingIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC07A1EB351E0F07B141FFDA76D224F /* JGProgressHUDRingIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3A5272BB946CAFEA6BEAE63BAA9EC5E /* JGProgressHUDPieIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = A39876B716EE9F8F5ADE7F73D187CD5E /* JGProgressHUDPieIndicatorView.m */; };
+		D43AB30BEE6974875A4B4047C5D565CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB81F992899224A0150E9BFC4BB1DFE3 /* Foundation.framework */; };
+		D7F562904EAFC0196CF1673737031B24 /* IMPI18N.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E475C0BC846CAA1526402E88A627777 /* IMPI18N.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D945C6FB5C4F9136A9757B5E29C77358 /* JGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C39FE9A50B270363EEC4F532C776DC43 /* JGProgressHUD.m */; };
+		D9C86653AF78C55F982E186C9BF0876C /* JGProgressHUDPieIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 755A810261209F034128DAE0F8094628 /* JGProgressHUDPieIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC789E3A0F1BE98D41825ED250B0FE68 /* JGProgressHUDFadeZoomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A442597D50F049167545A28DF01E58 /* JGProgressHUDFadeZoomAnimation.m */; };
+		E5433A3662D3DDFE98FBD6398A695E98 /* jg_hud_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCE7D1EF20FF291A8D52A8DAC7EAFF5C /* jg_hud_error@3x.png */; };
+		E5EB07DED6BDB40280443DD293A5E617 /* IIOCUtis-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5704BAC02DF4FD7442B6D20D70C19F3 /* IIOCUtis-dummy.m */; };
+		E7073B336932AE41C37958181BD184FD /* JGProgressHUDFadeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AD772B11CBD5EF023C25311EE4DD02D /* JGProgressHUDFadeAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E89B3E577DC1BE0FD8C496C72EAD8054 /* JGProgressHUDAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4A9F08D060694747FE3F25ECC06E77 /* JGProgressHUDAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC7CC76D2BD6B148FE9D16D947FFD89F /* JGProgressHUDSuccessIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9068914AEB1EF0CEBA867618A98FE840 /* JGProgressHUDSuccessIndicatorView.m */; };
+		F7EE8C10262D0E29FF4D24A6AA950996 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71BE63DA9705677D94A23A05086BD64 /* QuartzCore.framework */; };
+		FE498824021E104764F1536D9D818B1E /* JGProgressHUDAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 684F55A9D275702137D0A1D14315D6CE /* JGProgressHUDAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E5F544B7306626000ABBA4DACC140736 /* PBXContainerItemProxy */ = {
+		409A7464BECCDC82DDDB255FD1238DFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C3E638DB1D94A38A53CCD1B4D9CE8546;
+			remoteGlobalIDString = 0BB7D260F2C667858A9B193FFC357610;
+			remoteInfo = III18N;
+		};
+		7951FD4A385807C6599DDBF73AFCDA20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F3964F174D0EBFB0D64F8DBC20E1429;
+			remoteInfo = JGProgressHUD;
+		};
+		DA48DB510E20ED1FB8B25966459339A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AF237051559533D294CC3B7CA968083;
 			remoteInfo = IIOCUtis;
+		};
+		E50DE830FEE204DACB8CE34FAF3FAACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F3964F174D0EBFB0D64F8DBC20E1429;
+			remoteInfo = JGProgressHUD;
 		};
 		EA11181183D36BDC08CAAE11FF492437 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3EBB7BD6111950D90844413A0367BF07;
+			remoteGlobalIDString = 0EE8F9760198B2B37C2B8FB4D5ECE9B5;
 			remoteInfo = "Pods-IIOCUtis_Example";
+		};
+		F2A626379999F189AF7C5CED5837D4FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BB7D260F2C667858A9B193FFC357610;
+			remoteInfo = III18N;
+		};
+		F3EAF3545DF5060CE20AE409B7D9E2D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBD6B43FA0F7FFBCD1978EBE76F99021;
+			remoteInfo = "JGProgressHUD-JGProgressHUD";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03A5E64F52AE990E4B920DFC23A65877 /* IIOCUtis-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IIOCUtis-Info.plist"; sourceTree = "<group>"; };
-		0596BFCC6220A1D2DDB74F491FAA04F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		0E8A2A97598639F84D2E729765A30A1F /* Pods_IIOCUtis_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IIOCUtis_Tests.framework; path = "Pods-IIOCUtis_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1775A7E9B3235F07DAE347FB7A8AE220 /* IIOCUtis-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IIOCUtis-dummy.m"; sourceTree = "<group>"; };
-		17B4EE31AA2F56E3881F2E52932C7D09 /* Pods-IIOCUtis_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IIOCUtis_Example.modulemap"; sourceTree = "<group>"; };
-		17D03C7A969FE28E7BD85497C986D5BB /* IIOCUtis.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IIOCUtis.xcconfig; sourceTree = "<group>"; };
-		18AA338F991DE872899769F5C6FD2C53 /* Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = IIOCUtis/Classes/Constants.h; sourceTree = "<group>"; };
-		1DD99C271CD94C2886F55133F8AFE523 /* IIOCUtis.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IIOCUtis.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		287228CDF36BDDFB1FBD3EDC06BE1D45 /* Pods-IIOCUtis_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IIOCUtis_Example-umbrella.h"; sourceTree = "<group>"; };
-		3970FA2DDD06638389C0D480FACB0AE6 /* Pods-IIOCUtis_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIOCUtis_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4063C9C076ABF4A8BF9A06968510958C /* IIOCUtis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IIOCUtis.framework; path = IIOCUtis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52EC9392A8935219C18C5BDAEE80018A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		544BE0DDBEFC6924B563828294406A2B /* ServiceAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServiceAPI.h; path = IIOCUtis/Classes/ServiceAPI.h; sourceTree = "<group>"; };
-		6B25283D88AE7DD4FD577C869EAAF84B /* Pods-IIOCUtis_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIOCUtis_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6CAD0DF4FA655118FD0C45DE49B39E20 /* Pods-IIOCUtis_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIOCUtis_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7254E4C4AF27FFFF34A3CF2E13447374 /* Pods_IIOCUtis_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IIOCUtis_Example.framework; path = "Pods-IIOCUtis_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		75A86370825ABDD06400D22A9D8D8DF5 /* IIOCUtilsModule */ = {isa = PBXFileReference; includeInIndex = 1; name = IIOCUtilsModule; path = IIOCUtis/Classes/IIOCUtilsModule; sourceTree = "<group>"; };
-		784BB04DE833862EC57D4ADF6177C9AD /* Pods-IIOCUtis_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIOCUtis_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7A8979B50F70514B2B480D7EB5519241 /* Pods-IIOCUtis_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IIOCUtis_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7FA050B3569997EE6B457B97DDE7214E /* Product.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Product.h; path = IIOCUtis/Classes/Product.h; sourceTree = "<group>"; };
-		832673056EB9FBD7F25FB72555DE79C0 /* DBScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBScript.h; path = IIOCUtis/Classes/DBScript.h; sourceTree = "<group>"; };
-		9834C68DBB9262CD39F0425075D504CD /* Pods-IIOCUtis_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIOCUtis_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		98D1F19E5120AD12C515A9017FDAF570 /* IIOCUtis.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IIOCUtis.modulemap; sourceTree = "<group>"; };
-		9D6B395A47D2F8F96093D1E5A39662CC /* Macros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = IIOCUtis/Classes/Macros.h; sourceTree = "<group>"; };
+		01E0524C5D383C9568885517B64011DF /* JGProgressHUDIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndicatorView.m; sourceTree = "<group>"; };
+		06A25C5F423D1637443CBD30F0FEBC18 /* ResourceBundle-JGProgressHUD-JGProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JGProgressHUD-JGProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		0951AF6A26BF42AF2534BC4A10312333 /* IMPI18N.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IMPI18N.m; path = III18N/Classes/IMPI18N.m; sourceTree = "<group>"; };
+		0BC07A1EB351E0F07B141FFDA76D224F /* JGProgressHUDRingIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDRingIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDRingIndicatorView.h; sourceTree = "<group>"; };
+		0E475C0BC846CAA1526402E88A627777 /* IMPI18N.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMPI18N.h; path = III18N/Classes/IMPI18N.h; sourceTree = "<group>"; };
+		10596CBAD1476FF8212A1E3DF2C09350 /* JGProgressHUDIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndicatorView.h; sourceTree = "<group>"; };
+		10A29262CA69DA7C52DF87DCE9F38323 /* III18N-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "III18N-Info.plist"; sourceTree = "<group>"; };
+		17532125346BE26D3F18C3E00463BE98 /* Pods-IIOCUtis_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIOCUtis_Tests-Info.plist"; sourceTree = "<group>"; };
+		1A627F438383BD53FC8F21A336A9F24F /* JGProgressHUDSuccessIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDSuccessIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDSuccessIndicatorView.h; sourceTree = "<group>"; };
+		202853C810B03AB9BDAA216A8A0751E1 /* Pods-IIOCUtis_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIOCUtis_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		25FFA08A550E4AA6AE75E4ED9B1C6391 /* jg_hud_success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = jg_hud_success.png; path = JGProgressHUD/Resources/jg_hud_success.png; sourceTree = "<group>"; };
+		2795EB8F59C9EFBB25379FAC8DB9FC5A /* IIOCUtis-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IIOCUtis-Info.plist"; sourceTree = "<group>"; };
+		298B1612B310BBAF7FDDFD1DA5D58A6F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2E5B2FD045501D1FFDC8798B7348D4B8 /* Pods-IIOCUtis_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IIOCUtis_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		33C80708DD4A26D13D9DD9082FC81716 /* III18N.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = III18N.framework; path = III18N.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3426B31B848723DE0FF05D903121E2BC /* IIOCUtis.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IIOCUtis.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3AD772B11CBD5EF023C25311EE4DD02D /* JGProgressHUDFadeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDFadeAnimation.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeAnimation.h; sourceTree = "<group>"; };
+		43BDB865290C18D35C2A9E4464B546EF /* Pods-IIOCUtis_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIOCUtis_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4698B17214EAE80B5934C0E4333E762A /* Pods_IIOCUtis_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IIOCUtis_Example.framework; path = "Pods-IIOCUtis_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A01850B1B35CA853A51F04BAA4FAE92 /* jg_hud_error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = jg_hud_error.png; path = JGProgressHUD/Resources/jg_hud_error.png; sourceTree = "<group>"; };
+		52CC1AB87BE50FC3418D4E8DB0755743 /* Pods-IIOCUtis_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIOCUtis_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5502FD602122560454D4A9C522930C91 /* III18N-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "III18N-prefix.pch"; sourceTree = "<group>"; };
+		5DB3DF19D93146D26E553BAAC411F850 /* JGProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JGProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		5ECBDA50D968B3FAF9BE0F8166A96F0B /* JGProgressHUDIndeterminateIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDIndeterminateIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndeterminateIndicatorView.m; sourceTree = "<group>"; };
+		62B143262B0AFFF9F872AA04BF8B7898 /* JGProgressHUDShadow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDShadow.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDShadow.h; sourceTree = "<group>"; };
+		63518130386E3B64D7FC9DDC86F31558 /* III18N-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "III18N-dummy.m"; sourceTree = "<group>"; };
+		684F55A9D275702137D0A1D14315D6CE /* JGProgressHUDAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDAnimation.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDAnimation.m; sourceTree = "<group>"; };
+		68E5F6D4EC67005C2FCF4CB6399E1147 /* Pods-IIOCUtis_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIOCUtis_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6AC5750C677B28C61D04C93236E1EA3B /* ProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		705BA4400733A805C426DFBD3F44F6E8 /* III18N.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = III18N.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		755A810261209F034128DAE0F8094628 /* JGProgressHUDPieIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDPieIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDPieIndicatorView.h; sourceTree = "<group>"; };
+		77A442597D50F049167545A28DF01E58 /* JGProgressHUDFadeZoomAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDFadeZoomAnimation.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeZoomAnimation.m; sourceTree = "<group>"; };
+		7E7053E2CAC32DB722131C6E2B56DF98 /* Pods-IIOCUtis_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IIOCUtis_Tests.modulemap"; sourceTree = "<group>"; };
+		80174DAFC655BBA208E8370C59FA06AC /* IIOCUtis-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IIOCUtis-umbrella.h"; sourceTree = "<group>"; };
+		820975BBD8C389A9AE95BF8BC118CF69 /* JGProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		857FBE2F048D3D5B07B1297493209BB6 /* IIOCUtis.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IIOCUtis.modulemap; sourceTree = "<group>"; };
+		861A7EE7EB232907D51D1D7F541F6FE0 /* JGProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JGProgressHUD.modulemap; sourceTree = "<group>"; };
+		861DC612B3AF33C2501B5EDED1927587 /* JGProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUD.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUD.h; sourceTree = "<group>"; };
+		905F6209A24310EC4F937008FE9E77B0 /* III18N.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = III18N.modulemap; sourceTree = "<group>"; };
+		9068914AEB1EF0CEBA867618A98FE840 /* JGProgressHUDSuccessIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDSuccessIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDSuccessIndicatorView.m; sourceTree = "<group>"; };
+		9495EFC07D73244DEC5C8150FEF955BD /* III18NService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = III18NService.swift; path = III18N/Classes/III18NService.swift; sourceTree = "<group>"; };
+		9822D0D57FFA30DE476A0045788FA5AD /* Pods-IIOCUtis_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IIOCUtis_Example.modulemap"; sourceTree = "<group>"; };
+		9AD239068C702D89CB1F2257D14F8C60 /* jg_hud_error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "jg_hud_error@2x.png"; path = "JGProgressHUD/Resources/jg_hud_error@2x.png"; sourceTree = "<group>"; };
+		9B05C966856E985098820AE37BB84317 /* Pods-IIOCUtis_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IIOCUtis_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A11C78E8779EC61BDA6B7A0E63BC686B /* Pods-IIOCUtis_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIOCUtis_Example-Info.plist"; sourceTree = "<group>"; };
-		AC386F45CA8CA53AAC609BF9472332F7 /* Pods-IIOCUtis_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IIOCUtis_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AD79EE871185F0697F56672FF75E2236 /* Pods-IIOCUtis_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIOCUtis_Tests-Info.plist"; sourceTree = "<group>"; };
-		B32D2C5A24075193733B05D12331C45D /* Pods-IIOCUtis_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IIOCUtis_Example-dummy.m"; sourceTree = "<group>"; };
-		B408B572654202D96DE07D9CCB56711D /* CloudDiskDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudDiskDefine.h; path = IIOCUtis/Classes/CloudDiskDefine.h; sourceTree = "<group>"; };
-		BD47A3A46D45A1CB700A260CE6158436 /* Pods-IIOCUtis_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IIOCUtis_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D1A30481EF9BDD6C79B019D3E8124C27 /* Enums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Enums.h; path = IIOCUtis/Classes/Enums.h; sourceTree = "<group>"; };
-		D800DD305C2521778ECD40CFB402153D /* Pods-IIOCUtis_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IIOCUtis_Tests-dummy.m"; sourceTree = "<group>"; };
-		DA1F2679D0708062F11B82ABF372675A /* Pods-IIOCUtis_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IIOCUtis_Tests.modulemap"; sourceTree = "<group>"; };
-		E2885EEAB5CCA9730C9653C96F004278 /* Pods-IIOCUtis_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IIOCUtis_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E9E0B9FD12311C252139ED4D2714D19E /* IIOCUtis-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IIOCUtis-umbrella.h"; sourceTree = "<group>"; };
-		EEACF8792FE8D510B853094AC8E074A8 /* IIOCUtis-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IIOCUtis-prefix.pch"; sourceTree = "<group>"; };
-		F25A4675F11BE9C94E3B0C78DB4CCCC3 /* Pods-IIOCUtis_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIOCUtis_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9F4A9F08D060694747FE3F25ECC06E77 /* JGProgressHUDAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDAnimation.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDAnimation.h; sourceTree = "<group>"; };
+		9F967923E492DAF110311F665222A69A /* Pods_IIOCUtis_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IIOCUtis_Tests.framework; path = "Pods-IIOCUtis_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39876B716EE9F8F5ADE7F73D187CD5E /* JGProgressHUDPieIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDPieIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDPieIndicatorView.m; sourceTree = "<group>"; };
+		A3DCB1E355759E5BA510D250E055A7E8 /* Pods-IIOCUtis_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IIOCUtis_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A46DCB9B4AE7320423C63E849DBFDE73 /* JGProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		A8244A6118E48444589825573A564038 /* JGProgressHUDShadow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDShadow.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDShadow.m; sourceTree = "<group>"; };
+		A9DB2F53C19895D80F1046645AE713BC /* IIL18NEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IIL18NEnum.swift; path = III18N/Classes/IIL18NEnum.swift; sourceTree = "<group>"; };
+		AA7C92980CEFB70CFB74228C03124FD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AB81F992899224A0150E9BFC4BB1DFE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B10C48B1DD002EC5AF5DDCA34B54FCB4 /* JGProgressHUDRingIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDRingIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDRingIndicatorView.m; sourceTree = "<group>"; };
+		B252CD4CEDE646902D5003F2847FE857 /* Pods-IIOCUtis_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IIOCUtis_Example-Info.plist"; sourceTree = "<group>"; };
+		B5905BF4C3F3216574ABE7BA20BCF6D9 /* jg_hud_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "jg_hud_success@2x.png"; path = "JGProgressHUD/Resources/jg_hud_success@2x.png"; sourceTree = "<group>"; };
+		B70A74A947000BBA1E33933E2143897D /* JGProgressHUDErrorIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDErrorIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDErrorIndicatorView.h; sourceTree = "<group>"; };
+		B71BE63DA9705677D94A23A05086BD64 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B75083CC39DD165E6F67C7EE89801EF4 /* Pods-IIOCUtis_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IIOCUtis_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B7568060CECFAC5FA37A0BE5D72A7E55 /* JGProgressHUDIndeterminateIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDIndeterminateIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndeterminateIndicatorView.h; sourceTree = "<group>"; };
+		B7F5A25CCB6A057FE172112A5D61F544 /* Pods-IIOCUtis_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IIOCUtis_Tests-dummy.m"; sourceTree = "<group>"; };
+		B804BBE2575353FC9556E81437387228 /* III18N-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "III18N-umbrella.h"; sourceTree = "<group>"; };
+		B97CAADACB5A11E011456F0863272DAA /* JGProgressHUDFadeZoomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDFadeZoomAnimation.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeZoomAnimation.h; sourceTree = "<group>"; };
+		B98DAFD7FEF0ADEE126BC0F264BBBDCB /* JGProgressHUD-Defines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JGProgressHUD-Defines.h"; path = "JGProgressHUD/JGProgressHUD/JGProgressHUD-Defines.h"; sourceTree = "<group>"; };
+		BA2933A6CB0689E35A85C865D4A9E197 /* jg_hud_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "jg_hud_success@3x.png"; path = "JGProgressHUD/Resources/jg_hud_success@3x.png"; sourceTree = "<group>"; };
+		BA7D6D966AA12DC8FE1CDEBB7ACD7485 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BADB7EA996CF2F849A91120060AFBDA6 /* IIOCUtis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IIOCUtis.framework; path = IIOCUtis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE03C960C5E8235278930507B5E64D28 /* JGProgressHUDFadeAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDFadeAnimation.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeAnimation.m; sourceTree = "<group>"; };
+		C39FE9A50B270363EEC4F532C776DC43 /* JGProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUD.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUD.m; sourceTree = "<group>"; };
+		C40CFB3342FDCAB47B71A796F0E0F417 /* IIOCUtis.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IIOCUtis.xcconfig; sourceTree = "<group>"; };
+		C723E1C344D7376BF3423E74CE774C53 /* JGProgressHUDImageIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDImageIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDImageIndicatorView.m; sourceTree = "<group>"; };
+		C77C908E3345F5AD6BAAF172F7783EDE /* JGProgressHUDImageIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDImageIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDImageIndicatorView.h; sourceTree = "<group>"; };
+		CCE7D1EF20FF291A8D52A8DAC7EAFF5C /* jg_hud_error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "jg_hud_error@3x.png"; path = "JGProgressHUD/Resources/jg_hud_error@3x.png"; sourceTree = "<group>"; };
+		CDC91DC35751E2C598D8009EDB8A2FFA /* ProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		CDE9C47FD1B72A97558771115B3C59D4 /* Pods-IIOCUtis_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIOCUtis_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CE9114801DDC8AB2C92A4F59CA22B7C5 /* Pods-IIOCUtis_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IIOCUtis_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CF1B78C5B9A0F4D36403FD8FB2894F55 /* III18N.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = III18N.xcconfig; sourceTree = "<group>"; };
+		D5704BAC02DF4FD7442B6D20D70C19F3 /* IIOCUtis-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IIOCUtis-dummy.m"; sourceTree = "<group>"; };
+		D7D76224037E17EEDE6F73FAF2C1EA45 /* JGProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JGProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA567B230DA28C1D1369961E0CE9BA1D /* JGProgressHUD.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JGProgressHUD.bundle; path = "JGProgressHUD-JGProgressHUD.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2DD6C9CBFECA302948828634B4D202 /* JGProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JGProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		E048820A40FAF543155278EBC87A4C89 /* JGProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JGProgressHUD.framework; path = JGProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EC9F652F487754D6B506317688D753 /* IIOCUtisModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IIOCUtisModule.swift; path = IIOCUtis/Classes/IIOCUtisModule.swift; sourceTree = "<group>"; };
+		E4725FA3B6067451AD50BD4EA59DBC4C /* IIOCUtis-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IIOCUtis-prefix.pch"; sourceTree = "<group>"; };
+		EC7C812C742078E2CE438D977BF6480C /* JGProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JGProgressHUD.xcconfig; sourceTree = "<group>"; };
+		F38A848AB57640CE28284A8092F71157 /* Pods-IIOCUtis_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IIOCUtis_Example-umbrella.h"; sourceTree = "<group>"; };
+		F937782A16E852601E34EB604AFDFE23 /* Pods-IIOCUtis_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IIOCUtis_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FB23BD02D4A30D3FA7B01379144AECC1 /* JGProgressHUDErrorIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDErrorIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDErrorIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		444DE09943DCF38C29C397773B380EC4 /* Frameworks */ = {
+		19217EAF75A3EB74AC1DC3B22A3B66BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C37318D1CAA2B951A72C939E3FB8F12 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A1F69866391C4A08376638141FB34F8 /* Frameworks */ = {
+		4E7439DC7AE7E87C1239103F550FA33D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A603B27B99F5B6B5965AE31D8B0E98EE /* Foundation.framework in Frameworks */,
+				CE586461447C20467EEE10C57D69957E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD6DF9C6298CD1D3C2FE64AB3768417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28743BCEFB3C874D515CBC22B511FBE3 /* Foundation.framework in Frameworks */,
+				83E56B5D7D8724DE7AABF146EE107770 /* III18N.framework in Frameworks */,
+				037127C96294A45721CED4EB34A031EA /* JGProgressHUD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8BA510753A7F757DBE0EE7338DC7405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF4AA8B2524A9FC4495393C7151EB21 /* Foundation.framework in Frameworks */,
+				F7EE8C10262D0E29FF4D24A6AA950996 /* QuartzCore.framework in Frameworks */,
+				C6F293BAE3DBDCB073BFD6B3C898D592 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA28D93481F67F7374D6A88C9BDF6E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43AB30BEE6974875A4B4047C5D565CF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,147 +269,290 @@
 		16C5F61FE1CD09362E97DD0345D9C8C1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				80F0EE04A90BA81D16C88B982277B6BD /* Pods-IIOCUtis_Example */,
-				D591F4A78C06DF0430DB410002E997DA /* Pods-IIOCUtis_Tests */,
+				386289601DFB30A479DD0784058C4C63 /* Pods-IIOCUtis_Example */,
+				E9769C53BC497DBD4ABE5D84128F07C2 /* Pods-IIOCUtis_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3449DBFC9BF6EB88BEE8F7CE68261FE3 /* Products */ = {
+		1A3100DA8C8FA98687A442C667B10E3A /* ProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				4063C9C076ABF4A8BF9A06968510958C /* IIOCUtis.framework */,
-				7254E4C4AF27FFFF34A3CF2E13447374 /* Pods_IIOCUtis_Example.framework */,
-				0E8A2A97598639F84D2E729765A30A1F /* Pods_IIOCUtis_Tests.framework */,
+				CDC91DC35751E2C598D8009EDB8A2FFA /* ProgressHUD.h */,
+				6AC5750C677B28C61D04C93236E1EA3B /* ProgressHUD.m */,
 			);
-			name = Products;
+			name = ProgressHUD;
+			path = IIOCUtis/Classes/ProgressHUD;
 			sourceTree = "<group>";
 		};
-		6626D8B8FB152D5484DE9DC93487AA11 /* Pod */ = {
+		21E6C65390E27F44365FA0EDFE0AB34F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				1DD99C271CD94C2886F55133F8AFE523 /* IIOCUtis.podspec */,
-				52EC9392A8935219C18C5BDAEE80018A /* LICENSE */,
-				0596BFCC6220A1D2DDB74F491FAA04F3 /* README.md */,
+				AB81F992899224A0150E9BFC4BB1DFE3 /* Foundation.framework */,
+				B71BE63DA9705677D94A23A05086BD64 /* QuartzCore.framework */,
+				BA7D6D966AA12DC8FE1CDEBB7ACD7485 /* UIKit.framework */,
 			);
-			name = Pod;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		79905C9A4A7E875A4A132695F8B5A427 /* Support Files */ = {
+		386289601DFB30A479DD0784058C4C63 /* Pods-IIOCUtis_Example */ = {
 			isa = PBXGroup;
 			children = (
-				98D1F19E5120AD12C515A9017FDAF570 /* IIOCUtis.modulemap */,
-				17D03C7A969FE28E7BD85497C986D5BB /* IIOCUtis.xcconfig */,
-				1775A7E9B3235F07DAE347FB7A8AE220 /* IIOCUtis-dummy.m */,
-				03A5E64F52AE990E4B920DFC23A65877 /* IIOCUtis-Info.plist */,
-				EEACF8792FE8D510B853094AC8E074A8 /* IIOCUtis-prefix.pch */,
-				E9E0B9FD12311C252139ED4D2714D19E /* IIOCUtis-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/IIOCUtis";
-			sourceTree = "<group>";
-		};
-		80F0EE04A90BA81D16C88B982277B6BD /* Pods-IIOCUtis_Example */ = {
-			isa = PBXGroup;
-			children = (
-				17B4EE31AA2F56E3881F2E52932C7D09 /* Pods-IIOCUtis_Example.modulemap */,
-				AC386F45CA8CA53AAC609BF9472332F7 /* Pods-IIOCUtis_Example-acknowledgements.markdown */,
-				3970FA2DDD06638389C0D480FACB0AE6 /* Pods-IIOCUtis_Example-acknowledgements.plist */,
-				B32D2C5A24075193733B05D12331C45D /* Pods-IIOCUtis_Example-dummy.m */,
-				BD47A3A46D45A1CB700A260CE6158436 /* Pods-IIOCUtis_Example-frameworks.sh */,
-				A11C78E8779EC61BDA6B7A0E63BC686B /* Pods-IIOCUtis_Example-Info.plist */,
-				287228CDF36BDDFB1FBD3EDC06BE1D45 /* Pods-IIOCUtis_Example-umbrella.h */,
-				784BB04DE833862EC57D4ADF6177C9AD /* Pods-IIOCUtis_Example.debug.xcconfig */,
-				F25A4675F11BE9C94E3B0C78DB4CCCC3 /* Pods-IIOCUtis_Example.release.xcconfig */,
+				9822D0D57FFA30DE476A0045788FA5AD /* Pods-IIOCUtis_Example.modulemap */,
+				A3DCB1E355759E5BA510D250E055A7E8 /* Pods-IIOCUtis_Example-acknowledgements.markdown */,
+				68E5F6D4EC67005C2FCF4CB6399E1147 /* Pods-IIOCUtis_Example-acknowledgements.plist */,
+				9B05C966856E985098820AE37BB84317 /* Pods-IIOCUtis_Example-dummy.m */,
+				F937782A16E852601E34EB604AFDFE23 /* Pods-IIOCUtis_Example-frameworks.sh */,
+				B252CD4CEDE646902D5003F2847FE857 /* Pods-IIOCUtis_Example-Info.plist */,
+				F38A848AB57640CE28284A8092F71157 /* Pods-IIOCUtis_Example-umbrella.h */,
+				43BDB865290C18D35C2A9E4464B546EF /* Pods-IIOCUtis_Example.debug.xcconfig */,
+				CE9114801DDC8AB2C92A4F59CA22B7C5 /* Pods-IIOCUtis_Example.release.xcconfig */,
 			);
 			name = "Pods-IIOCUtis_Example";
 			path = "Target Support Files/Pods-IIOCUtis_Example";
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		3896576286FC527D3741A9E6C1DEECB3 /* III18N */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				9495EFC07D73244DEC5C8150FEF955BD /* III18NService.swift */,
+				A9DB2F53C19895D80F1046645AE713BC /* IIL18NEnum.swift */,
+				0E475C0BC846CAA1526402E88A627777 /* IMPI18N.h */,
+				0951AF6A26BF42AF2534BC4A10312333 /* IMPI18N.m */,
+				ECDF9C33590704562B1504378397A6E3 /* Support Files */,
 			);
-			name = iOS;
+			name = III18N;
+			path = III18N;
 			sourceTree = "<group>";
 		};
-		9C57D17784DB963DDEC5AAD1DB7633DC /* IIOCUtis */ = {
+		46C29EE46F77EDA5060D5B16A1C15DAE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B408B572654202D96DE07D9CCB56711D /* CloudDiskDefine.h */,
-				18AA338F991DE872899769F5C6FD2C53 /* Constants.h */,
-				832673056EB9FBD7F25FB72555DE79C0 /* DBScript.h */,
-				D1A30481EF9BDD6C79B019D3E8124C27 /* Enums.h */,
-				75A86370825ABDD06400D22A9D8D8DF5 /* IIOCUtilsModule */,
-				9D6B395A47D2F8F96093D1E5A39662CC /* Macros.h */,
-				7FA050B3569997EE6B457B97DDE7214E /* Product.h */,
-				544BE0DDBEFC6924B563828294406A2B /* ServiceAPI.h */,
-				6626D8B8FB152D5484DE9DC93487AA11 /* Pod */,
-				79905C9A4A7E875A4A132695F8B5A427 /* Support Files */,
+				861A7EE7EB232907D51D1D7F541F6FE0 /* JGProgressHUD.modulemap */,
+				EC7C812C742078E2CE438D977BF6480C /* JGProgressHUD.xcconfig */,
+				5DB3DF19D93146D26E553BAAC411F850 /* JGProgressHUD-dummy.m */,
+				DF2DD6C9CBFECA302948828634B4D202 /* JGProgressHUD-Info.plist */,
+				A46DCB9B4AE7320423C63E849DBFDE73 /* JGProgressHUD-prefix.pch */,
+				820975BBD8C389A9AE95BF8BC118CF69 /* JGProgressHUD-umbrella.h */,
+				06A25C5F423D1637443CBD30F0FEBC18 /* ResourceBundle-JGProgressHUD-JGProgressHUD-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JGProgressHUD";
+			sourceTree = "<group>";
+		};
+		69087C2E2C3B2AC24E6B817FFFDB89F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A01850B1B35CA853A51F04BAA4FAE92 /* jg_hud_error.png */,
+				9AD239068C702D89CB1F2257D14F8C60 /* jg_hud_error@2x.png */,
+				CCE7D1EF20FF291A8D52A8DAC7EAFF5C /* jg_hud_error@3x.png */,
+				25FFA08A550E4AA6AE75E4ED9B1C6391 /* jg_hud_success.png */,
+				B5905BF4C3F3216574ABE7BA20BCF6D9 /* jg_hud_success@2x.png */,
+				BA2933A6CB0689E35A85C865D4A9E197 /* jg_hud_success@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		704983C8777C5F13119FC02DAF2F6E3A /* IIOCUtis */ = {
+			isa = PBXGroup;
+			children = (
+				E2EC9F652F487754D6B506317688D753 /* IIOCUtisModule.swift */,
+				C5D1E5E3388EE84134981B4BF88FBA7D /* Pod */,
+				1A3100DA8C8FA98687A442C667B10E3A /* ProgressHUD */,
+				A0C2CE98BA4CDF00439372894AFC6900 /* Support Files */,
 			);
 			name = IIOCUtis;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		C4038BA38E70C690EF5B004C04891B77 /* Development Pods */ = {
+		793B9787D0C782C93D210DBEB15793C5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9C57D17784DB963DDEC5AAD1DB7633DC /* IIOCUtis */,
+				704983C8777C5F13119FC02DAF2F6E3A /* IIOCUtis */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		92A24EDE0E8C3FC50DBE3A9126CA959C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3896576286FC527D3741A9E6C1DEECB3 /* III18N */,
+				CA8CA53DD42B9BD100AFBC5685464377 /* JGProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0C2CE98BA4CDF00439372894AFC6900 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				857FBE2F048D3D5B07B1297493209BB6 /* IIOCUtis.modulemap */,
+				C40CFB3342FDCAB47B71A796F0E0F417 /* IIOCUtis.xcconfig */,
+				D5704BAC02DF4FD7442B6D20D70C19F3 /* IIOCUtis-dummy.m */,
+				2795EB8F59C9EFBB25379FAC8DB9FC5A /* IIOCUtis-Info.plist */,
+				E4725FA3B6067451AD50BD4EA59DBC4C /* IIOCUtis-prefix.pch */,
+				80174DAFC655BBA208E8370C59FA06AC /* IIOCUtis-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/IIOCUtis";
+			sourceTree = "<group>";
+		};
+		C5D1E5E3388EE84134981B4BF88FBA7D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3426B31B848723DE0FF05D903121E2BC /* IIOCUtis.podspec */,
+				AA7C92980CEFB70CFB74228C03124FD5 /* LICENSE */,
+				298B1612B310BBAF7FDDFD1DA5D58A6F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C9E897F078D237754CE0C4C580875ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33C80708DD4A26D13D9DD9082FC81716 /* III18N.framework */,
+				BADB7EA996CF2F849A91120060AFBDA6 /* IIOCUtis.framework */,
+				DA567B230DA28C1D1369961E0CE9BA1D /* JGProgressHUD.bundle */,
+				E048820A40FAF543155278EBC87A4C89 /* JGProgressHUD.framework */,
+				4698B17214EAE80B5934C0E4333E762A /* Pods_IIOCUtis_Example.framework */,
+				9F967923E492DAF110311F665222A69A /* Pods_IIOCUtis_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA8CA53DD42B9BD100AFBC5685464377 /* JGProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				861DC612B3AF33C2501B5EDED1927587 /* JGProgressHUD.h */,
+				C39FE9A50B270363EEC4F532C776DC43 /* JGProgressHUD.m */,
+				B98DAFD7FEF0ADEE126BC0F264BBBDCB /* JGProgressHUD-Defines.h */,
+				9F4A9F08D060694747FE3F25ECC06E77 /* JGProgressHUDAnimation.h */,
+				684F55A9D275702137D0A1D14315D6CE /* JGProgressHUDAnimation.m */,
+				B70A74A947000BBA1E33933E2143897D /* JGProgressHUDErrorIndicatorView.h */,
+				FB23BD02D4A30D3FA7B01379144AECC1 /* JGProgressHUDErrorIndicatorView.m */,
+				3AD772B11CBD5EF023C25311EE4DD02D /* JGProgressHUDFadeAnimation.h */,
+				BE03C960C5E8235278930507B5E64D28 /* JGProgressHUDFadeAnimation.m */,
+				B97CAADACB5A11E011456F0863272DAA /* JGProgressHUDFadeZoomAnimation.h */,
+				77A442597D50F049167545A28DF01E58 /* JGProgressHUDFadeZoomAnimation.m */,
+				C77C908E3345F5AD6BAAF172F7783EDE /* JGProgressHUDImageIndicatorView.h */,
+				C723E1C344D7376BF3423E74CE774C53 /* JGProgressHUDImageIndicatorView.m */,
+				B7568060CECFAC5FA37A0BE5D72A7E55 /* JGProgressHUDIndeterminateIndicatorView.h */,
+				5ECBDA50D968B3FAF9BE0F8166A96F0B /* JGProgressHUDIndeterminateIndicatorView.m */,
+				10596CBAD1476FF8212A1E3DF2C09350 /* JGProgressHUDIndicatorView.h */,
+				01E0524C5D383C9568885517B64011DF /* JGProgressHUDIndicatorView.m */,
+				755A810261209F034128DAE0F8094628 /* JGProgressHUDPieIndicatorView.h */,
+				A39876B716EE9F8F5ADE7F73D187CD5E /* JGProgressHUDPieIndicatorView.m */,
+				0BC07A1EB351E0F07B141FFDA76D224F /* JGProgressHUDRingIndicatorView.h */,
+				B10C48B1DD002EC5AF5DDCA34B54FCB4 /* JGProgressHUDRingIndicatorView.m */,
+				62B143262B0AFFF9F872AA04BF8B7898 /* JGProgressHUDShadow.h */,
+				A8244A6118E48444589825573A564038 /* JGProgressHUDShadow.m */,
+				1A627F438383BD53FC8F21A336A9F24F /* JGProgressHUDSuccessIndicatorView.h */,
+				9068914AEB1EF0CEBA867618A98FE840 /* JGProgressHUDSuccessIndicatorView.m */,
+				69087C2E2C3B2AC24E6B817FFFDB89F6 /* Resources */,
+				46C29EE46F77EDA5060D5B16A1C15DAE /* Support Files */,
+			);
+			name = JGProgressHUD;
+			path = JGProgressHUD;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C4038BA38E70C690EF5B004C04891B77 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				3449DBFC9BF6EB88BEE8F7CE68261FE3 /* Products */,
+				793B9787D0C782C93D210DBEB15793C5 /* Development Pods */,
+				F931DE614E2AE8B2025C09A3984F81E3 /* Frameworks */,
+				92A24EDE0E8C3FC50DBE3A9126CA959C /* Pods */,
+				C9E897F078D237754CE0C4C580875ABC /* Products */,
 				16C5F61FE1CD09362E97DD0345D9C8C1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E9769C53BC497DBD4ABE5D84128F07C2 /* Pods-IIOCUtis_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D591F4A78C06DF0430DB410002E997DA /* Pods-IIOCUtis_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				DA1F2679D0708062F11B82ABF372675A /* Pods-IIOCUtis_Tests.modulemap */,
-				7A8979B50F70514B2B480D7EB5519241 /* Pods-IIOCUtis_Tests-acknowledgements.markdown */,
-				6B25283D88AE7DD4FD577C869EAAF84B /* Pods-IIOCUtis_Tests-acknowledgements.plist */,
-				D800DD305C2521778ECD40CFB402153D /* Pods-IIOCUtis_Tests-dummy.m */,
-				AD79EE871185F0697F56672FF75E2236 /* Pods-IIOCUtis_Tests-Info.plist */,
-				E2885EEAB5CCA9730C9653C96F004278 /* Pods-IIOCUtis_Tests-umbrella.h */,
-				9834C68DBB9262CD39F0425075D504CD /* Pods-IIOCUtis_Tests.debug.xcconfig */,
-				6CAD0DF4FA655118FD0C45DE49B39E20 /* Pods-IIOCUtis_Tests.release.xcconfig */,
+				7E7053E2CAC32DB722131C6E2B56DF98 /* Pods-IIOCUtis_Tests.modulemap */,
+				2E5B2FD045501D1FFDC8798B7348D4B8 /* Pods-IIOCUtis_Tests-acknowledgements.markdown */,
+				52CC1AB87BE50FC3418D4E8DB0755743 /* Pods-IIOCUtis_Tests-acknowledgements.plist */,
+				B7F5A25CCB6A057FE172112A5D61F544 /* Pods-IIOCUtis_Tests-dummy.m */,
+				17532125346BE26D3F18C3E00463BE98 /* Pods-IIOCUtis_Tests-Info.plist */,
+				B75083CC39DD165E6F67C7EE89801EF4 /* Pods-IIOCUtis_Tests-umbrella.h */,
+				202853C810B03AB9BDAA216A8A0751E1 /* Pods-IIOCUtis_Tests.debug.xcconfig */,
+				CDE9C47FD1B72A97558771115B3C59D4 /* Pods-IIOCUtis_Tests.release.xcconfig */,
 			);
 			name = "Pods-IIOCUtis_Tests";
 			path = "Target Support Files/Pods-IIOCUtis_Tests";
 			sourceTree = "<group>";
 		};
+		ECDF9C33590704562B1504378397A6E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				905F6209A24310EC4F937008FE9E77B0 /* III18N.modulemap */,
+				CF1B78C5B9A0F4D36403FD8FB2894F55 /* III18N.xcconfig */,
+				63518130386E3B64D7FC9DDC86F31558 /* III18N-dummy.m */,
+				10A29262CA69DA7C52DF87DCE9F38323 /* III18N-Info.plist */,
+				5502FD602122560454D4A9C522930C91 /* III18N-prefix.pch */,
+				B804BBE2575353FC9556E81437387228 /* III18N-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/III18N";
+			sourceTree = "<group>";
+		};
+		F931DE614E2AE8B2025C09A3984F81E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				705BA4400733A805C426DFBD3F44F6E8 /* III18N.framework */,
+				D7D76224037E17EEDE6F73FAF2C1EA45 /* JGProgressHUD.framework */,
+				21E6C65390E27F44365FA0EDFE0AB34F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3F046AFDC977CA6E0BEDC8DC687FA1CE /* Headers */ = {
+		54EAA90ECAC71B774359BB3C4B3E1F66 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				992D2042E3A8E427E091FFBD01176D80 /* CloudDiskDefine.h in Headers */,
-				300DA2EBF875BEC98C378A7C792238F8 /* Constants.h in Headers */,
-				8431DA42465FFBB73E5D9E55F57E9538 /* DBScript.h in Headers */,
-				7767D8F6337EEEDC192A46BAB1BCC48F /* Enums.h in Headers */,
-				3FB9AB68CCB4DE3BCF8E421D5FE663B4 /* IIOCUtis-umbrella.h in Headers */,
-				EF70DD77DAE67BF800C08FD5C8F267FE /* Macros.h in Headers */,
-				3EEA836E54E031359A69E9421DB3ACA9 /* Product.h in Headers */,
-				9298123697ACC8197C4D04B8419CD534 /* ServiceAPI.h in Headers */,
+				414A45793600CA850FC1D2A305B1E79B /* III18N-umbrella.h in Headers */,
+				D7F562904EAFC0196CF1673737031B24 /* IMPI18N.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6900B062584F81FA41DA467E1FE90386 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA7A411BADF177E114AA151529262191 /* Pods-IIOCUtis_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A6FCCB4C3D9797236E4289D701B484 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B75B8DEA5E4847C6F47104D0040A70F /* IIOCUtis-umbrella.h in Headers */,
+				42AA6305185DCE5511C2121E7F8C553E /* ProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C370B5D439151F3B75A9C943B50A0B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D066467F04D6C345B4C09B1DB534CBBB /* JGProgressHUD-Defines.h in Headers */,
+				1864369A2987D8E68105A539C59189EA /* JGProgressHUD-umbrella.h in Headers */,
+				9B8C76107D3FA6BA28353EB4BACC023D /* JGProgressHUD.h in Headers */,
+				E89B3E577DC1BE0FD8C496C72EAD8054 /* JGProgressHUDAnimation.h in Headers */,
+				97FC89448C90C8E8CA8FC4D31B674127 /* JGProgressHUDErrorIndicatorView.h in Headers */,
+				E7073B336932AE41C37958181BD184FD /* JGProgressHUDFadeAnimation.h in Headers */,
+				57775D931EEF36326EFB401B0B1BA4A5 /* JGProgressHUDFadeZoomAnimation.h in Headers */,
+				28CE8489EC8398617CA181FA38079992 /* JGProgressHUDImageIndicatorView.h in Headers */,
+				7C010D15D2BB95B4EE74F8A90C30423B /* JGProgressHUDIndeterminateIndicatorView.h in Headers */,
+				41DF7E48A9C10EED4AE312DA5756C168 /* JGProgressHUDIndicatorView.h in Headers */,
+				D9C86653AF78C55F982E186C9BF0876C /* JGProgressHUDPieIndicatorView.h in Headers */,
+				D09DFD359128CE7529A5FFD0414F4407 /* JGProgressHUDRingIndicatorView.h in Headers */,
+				08064F5364D5ADA986145881CCC5B668 /* JGProgressHUDShadow.h in Headers */,
+				C5BBCC10326EE6DCBE3A3E4864B2541E /* JGProgressHUDSuccessIndicatorView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,37 +564,88 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F257908FBE98FE93C0C0E469B7D7519C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B5ABA2DB01C64DD5C61BE192D9317692 /* Pods-IIOCUtis_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3EBB7BD6111950D90844413A0367BF07 /* Pods-IIOCUtis_Example */ = {
+		0BB7D260F2C667858A9B193FFC357610 /* III18N */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F444789E2A2E3C3D8231BCF6F369B8C /* Build configuration list for PBXNativeTarget "Pods-IIOCUtis_Example" */;
+			buildConfigurationList = 7D5AD5B2C1FE4523E736B366622BAB2D /* Build configuration list for PBXNativeTarget "III18N" */;
 			buildPhases = (
-				F257908FBE98FE93C0C0E469B7D7519C /* Headers */,
-				4BCE097C16F57154907F74BAFBF95AAC /* Sources */,
-				444DE09943DCF38C29C397773B380EC4 /* Frameworks */,
-				A81A40C4880AC200AC2636003327E13C /* Resources */,
+				54EAA90ECAC71B774359BB3C4B3E1F66 /* Headers */,
+				34DA69C9AB844F9915D82BF33E8E612B /* Sources */,
+				CA28D93481F67F7374D6A88C9BDF6E44 /* Frameworks */,
+				03A2B637BD40AF7417D677BE71A9A8CE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5BF9E8329D84DDCD8B63293DFC48A534 /* PBXTargetDependency */,
+			);
+			name = III18N;
+			productName = III18N;
+			productReference = 33C80708DD4A26D13D9DD9082FC81716 /* III18N.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0EE8F9760198B2B37C2B8FB4D5ECE9B5 /* Pods-IIOCUtis_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC56056512290CDC007AE540D2AB000 /* Build configuration list for PBXNativeTarget "Pods-IIOCUtis_Example" */;
+			buildPhases = (
+				6900B062584F81FA41DA467E1FE90386 /* Headers */,
+				479C6896D72DB2F235401CD9F8E96DCA /* Sources */,
+				4E7439DC7AE7E87C1239103F550FA33D /* Frameworks */,
+				2632778CA11D85EC1F13F9DA5C48DA62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AC43DB3E5CB7F8B2C8E084EEA01E5B8 /* PBXTargetDependency */,
+				91254C1AE663E7B3BEA97CE160416F2D /* PBXTargetDependency */,
+				C7A6855C8A0D7FA59D04B4B9A7F7091C /* PBXTargetDependency */,
 			);
 			name = "Pods-IIOCUtis_Example";
 			productName = "Pods-IIOCUtis_Example";
-			productReference = 7254E4C4AF27FFFF34A3CF2E13447374 /* Pods_IIOCUtis_Example.framework */;
+			productReference = 4698B17214EAE80B5934C0E4333E762A /* Pods_IIOCUtis_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6BAA3152E1C87D6297CD0CA5B1749D24 /* Pods-IIOCUtis_Tests */ = {
+		6AF237051559533D294CC3B7CA968083 /* IIOCUtis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05CA1E1C0133B17AB925A4B9CAB006D /* Build configuration list for PBXNativeTarget "IIOCUtis" */;
+			buildPhases = (
+				86A6FCCB4C3D9797236E4289D701B484 /* Headers */,
+				35543F7061BDA6479B7A1603B145B16A /* Sources */,
+				8CD6DF9C6298CD1D3C2FE64AB3768417 /* Frameworks */,
+				8761798CB0BABC081854AE847A841F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC543B36064F53A4C199A05B204CE470 /* PBXTargetDependency */,
+				7DBC38E02B13639F86124A0760B2EDA9 /* PBXTargetDependency */,
+			);
+			name = IIOCUtis;
+			productName = IIOCUtis;
+			productReference = BADB7EA996CF2F849A91120060AFBDA6 /* IIOCUtis.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F3964F174D0EBFB0D64F8DBC20E1429 /* JGProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB525E944E1CDBD9D79779A972E2E124 /* Build configuration list for PBXNativeTarget "JGProgressHUD" */;
+			buildPhases = (
+				9C370B5D439151F3B75A9C943B50A0B1 /* Headers */,
+				3E99D58D095D203E706A93C3C27A1D6F /* Sources */,
+				B8BA510753A7F757DBE0EE7338DC7405 /* Frameworks */,
+				C29FB90698362A88CFCA166EDA8B1A31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E9A19941E33D3A21FFBB95656B72A8B /* PBXTargetDependency */,
+			);
+			name = JGProgressHUD;
+			productName = JGProgressHUD;
+			productReference = E048820A40FAF543155278EBC87A4C89 /* JGProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		750496BCA077A6854B3C4F99FD15850E /* Pods-IIOCUtis_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3372C1AAC94A2871186BE55ADADEB558 /* Build configuration list for PBXNativeTarget "Pods-IIOCUtis_Tests" */;
 			buildPhases = (
@@ -314,26 +661,25 @@
 			);
 			name = "Pods-IIOCUtis_Tests";
 			productName = "Pods-IIOCUtis_Tests";
-			productReference = 0E8A2A97598639F84D2E729765A30A1F /* Pods_IIOCUtis_Tests.framework */;
+			productReference = 9F967923E492DAF110311F665222A69A /* Pods_IIOCUtis_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C3E638DB1D94A38A53CCD1B4D9CE8546 /* IIOCUtis */ = {
+		BBD6B43FA0F7FFBCD1978EBE76F99021 /* JGProgressHUD-JGProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E32942729EAA3FBF799A740FF7DBBE9D /* Build configuration list for PBXNativeTarget "IIOCUtis" */;
+			buildConfigurationList = 4BDF2451951B779994AD27C4E15FDB69 /* Build configuration list for PBXNativeTarget "JGProgressHUD-JGProgressHUD" */;
 			buildPhases = (
-				3F046AFDC977CA6E0BEDC8DC687FA1CE /* Headers */,
-				48CB88F5A1D1F188C5CB03B287433A94 /* Sources */,
-				9A1F69866391C4A08376638141FB34F8 /* Frameworks */,
-				E1C3E9A483051D98FC325D9C06FAB672 /* Resources */,
+				5CBD1A95DC2411B6586F71FD680E902B /* Sources */,
+				19217EAF75A3EB74AC1DC3B22A3B66BD /* Frameworks */,
+				428C4F808805A0DBBCA7295E847147C0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = IIOCUtis;
-			productName = IIOCUtis;
-			productReference = 4063C9C076ABF4A8BF9A06968510958C /* IIOCUtis.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "JGProgressHUD-JGProgressHUD";
+			productName = "JGProgressHUD-JGProgressHUD";
+			productReference = DA567B230DA28C1D1369961E0CE9BA1D /* JGProgressHUD.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -352,18 +698,48 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3449DBFC9BF6EB88BEE8F7CE68261FE3 /* Products */;
+			productRefGroup = C9E897F078D237754CE0C4C580875ABC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C3E638DB1D94A38A53CCD1B4D9CE8546 /* IIOCUtis */,
-				3EBB7BD6111950D90844413A0367BF07 /* Pods-IIOCUtis_Example */,
-				6BAA3152E1C87D6297CD0CA5B1749D24 /* Pods-IIOCUtis_Tests */,
+				0BB7D260F2C667858A9B193FFC357610 /* III18N */,
+				6AF237051559533D294CC3B7CA968083 /* IIOCUtis */,
+				6F3964F174D0EBFB0D64F8DBC20E1429 /* JGProgressHUD */,
+				BBD6B43FA0F7FFBCD1978EBE76F99021 /* JGProgressHUD-JGProgressHUD */,
+				0EE8F9760198B2B37C2B8FB4D5ECE9B5 /* Pods-IIOCUtis_Example */,
+				750496BCA077A6854B3C4F99FD15850E /* Pods-IIOCUtis_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		03A2B637BD40AF7417D677BE71A9A8CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2632778CA11D85EC1F13F9DA5C48DA62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428C4F808805A0DBBCA7295E847147C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1B03DBE0FD71FE02CC198BD0F5E4EE /* jg_hud_error.png in Resources */,
+				A9C2A823A85E15E61ED68DC3D3EE8D9D /* jg_hud_error@2x.png in Resources */,
+				E5433A3662D3DDFE98FBD6398A695E98 /* jg_hud_error@3x.png in Resources */,
+				2013AACC1E5A5B13BAB88FB489CB688C /* jg_hud_success.png in Resources */,
+				C00C05D800D5396F0B8641BEC476E893 /* jg_hud_success@2x.png in Resources */,
+				45F72549C2CE71A21560D90AF13B5883 /* jg_hud_success@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81614F30E0487C31A2DA22B272859970 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,37 +747,77 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A81A40C4880AC200AC2636003327E13C /* Resources */ = {
+		8761798CB0BABC081854AE847A841F52 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1C3E9A483051D98FC325D9C06FAB672 /* Resources */ = {
+		C29FB90698362A88CFCA166EDA8B1A31 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66BB0E61AD3A2DF3FBD67980E9A9752E /* JGProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		48CB88F5A1D1F188C5CB03B287433A94 /* Sources */ = {
+		34DA69C9AB844F9915D82BF33E8E612B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CBED358EF34172499161BCE40D9532A /* IIOCUtilsModule in Sources */,
-				A843AA2744C4D9A8F738104579169BC6 /* IIOCUtis-dummy.m in Sources */,
+				AD9281D80670D067C692F9A7BFDA476C /* III18N-dummy.m in Sources */,
+				08AC72A10D97900CF9D5829F11862B7F /* III18NService.swift in Sources */,
+				A933760037009A2F201775AE6D98A5AE /* IIL18NEnum.swift in Sources */,
+				400B1DD4E0DBEA0AF496CD027291FC97 /* IMPI18N.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BCE097C16F57154907F74BAFBF95AAC /* Sources */ = {
+		35543F7061BDA6479B7A1603B145B16A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61F9D97D1E988203FE8670A37B97DA34 /* Pods-IIOCUtis_Example-dummy.m in Sources */,
+				E5EB07DED6BDB40280443DD293A5E617 /* IIOCUtis-dummy.m in Sources */,
+				410A9D9641A27EB691B2AADC627F7721 /* IIOCUtisModule.swift in Sources */,
+				CC083C1BF2DA18EF10A639E3B7139102 /* ProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E99D58D095D203E706A93C3C27A1D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651E74D055AF5B878279956E565B98CE /* JGProgressHUD-dummy.m in Sources */,
+				D945C6FB5C4F9136A9757B5E29C77358 /* JGProgressHUD.m in Sources */,
+				FE498824021E104764F1536D9D818B1E /* JGProgressHUDAnimation.m in Sources */,
+				13CC9FA0EF025C4F2BE1B9678361C028 /* JGProgressHUDErrorIndicatorView.m in Sources */,
+				90FC42DDC4739785A7166DC7D8E942D4 /* JGProgressHUDFadeAnimation.m in Sources */,
+				DC789E3A0F1BE98D41825ED250B0FE68 /* JGProgressHUDFadeZoomAnimation.m in Sources */,
+				9CE9CBC207982DE0FCFA7F4AB8A222F8 /* JGProgressHUDImageIndicatorView.m in Sources */,
+				A67F1EC68AE2BC4594F0F3CC49774330 /* JGProgressHUDIndeterminateIndicatorView.m in Sources */,
+				A3424FDF3EED172CF588AB51054639F5 /* JGProgressHUDIndicatorView.m in Sources */,
+				D3A5272BB946CAFEA6BEAE63BAA9EC5E /* JGProgressHUDPieIndicatorView.m in Sources */,
+				BA32729002B77E2073D80FB5CECC17E8 /* JGProgressHUDRingIndicatorView.m in Sources */,
+				582110458FE13C140EEABCB2A83D48E4 /* JGProgressHUDShadow.m in Sources */,
+				EC7CC76D2BD6B148FE9D16D947FFD89F /* JGProgressHUDSuccessIndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479C6896D72DB2F235401CD9F8E96DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AB034202328B78351372701018A00A /* Pods-IIOCUtis_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBD1A95DC2411B6586F71FD680E902B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,17 +832,47 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1E9A19941E33D3A21FFBB95656B72A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JGProgressHUD-JGProgressHUD";
+			target = BBD6B43FA0F7FFBCD1978EBE76F99021 /* JGProgressHUD-JGProgressHUD */;
+			targetProxy = F3EAF3545DF5060CE20AE409B7D9E2D2 /* PBXContainerItemProxy */;
+		};
 		352DA6606487274F4DC84861DD946F13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-IIOCUtis_Example";
-			target = 3EBB7BD6111950D90844413A0367BF07 /* Pods-IIOCUtis_Example */;
+			target = 0EE8F9760198B2B37C2B8FB4D5ECE9B5 /* Pods-IIOCUtis_Example */;
 			targetProxy = EA11181183D36BDC08CAAE11FF492437 /* PBXContainerItemProxy */;
 		};
-		5BF9E8329D84DDCD8B63293DFC48A534 /* PBXTargetDependency */ = {
+		6AC43DB3E5CB7F8B2C8E084EEA01E5B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = III18N;
+			target = 0BB7D260F2C667858A9B193FFC357610 /* III18N */;
+			targetProxy = F2A626379999F189AF7C5CED5837D4FB /* PBXContainerItemProxy */;
+		};
+		7DBC38E02B13639F86124A0760B2EDA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JGProgressHUD;
+			target = 6F3964F174D0EBFB0D64F8DBC20E1429 /* JGProgressHUD */;
+			targetProxy = 7951FD4A385807C6599DDBF73AFCDA20 /* PBXContainerItemProxy */;
+		};
+		91254C1AE663E7B3BEA97CE160416F2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IIOCUtis;
-			target = C3E638DB1D94A38A53CCD1B4D9CE8546 /* IIOCUtis */;
-			targetProxy = E5F544B7306626000ABBA4DACC140736 /* PBXContainerItemProxy */;
+			target = 6AF237051559533D294CC3B7CA968083 /* IIOCUtis */;
+			targetProxy = DA48DB510E20ED1FB8B25966459339A3 /* PBXContainerItemProxy */;
+		};
+		AC543B36064F53A4C199A05B204CE470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = III18N;
+			target = 0BB7D260F2C667858A9B193FFC357610 /* III18N */;
+			targetProxy = 409A7464BECCDC82DDDB255FD1238DFD /* PBXContainerItemProxy */;
+		};
+		C7A6855C8A0D7FA59D04B4B9A7F7091C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JGProgressHUD;
+			target = 6F3964F174D0EBFB0D64F8DBC20E1429 /* JGProgressHUD */;
+			targetProxy = E50DE830FEE204DACB8CE34FAF3FAACB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -493,7 +939,7 @@
 		};
 		172F93D69BD7AC8B10EFC0E0350F102D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CAD0DF4FA655118FD0C45DE49B39E20 /* Pods-IIOCUtis_Tests.release.xcconfig */;
+			baseConfigurationReference = CDE9C47FD1B72A97558771115B3C59D4 /* Pods-IIOCUtis_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -525,43 +971,9 @@
 			};
 			name = Release;
 		};
-		3390FF8208452C737D55FEF0FC96ADD9 /* Release */ = {
+		24E81D81895583932BEBF15DA8960313 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F25A4675F11BE9C94E3B0C78DB4CCCC3 /* Pods-IIOCUtis_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-IIOCUtis_Example/Pods-IIOCUtis_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-IIOCUtis_Example/Pods-IIOCUtis_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		40D412E67ACE6C4A0E5120FAE1AF51FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17D03C7A969FE28E7BD85497C986D5BB /* IIOCUtis.xcconfig */;
+			baseConfigurationReference = EC7C812C742078E2CE438D977BF6480C /* JGProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -572,18 +984,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IIOCUtis/IIOCUtis-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IIOCUtis/IIOCUtis-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JGProgressHUD/JGProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JGProgressHUD/JGProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IIOCUtis/IIOCUtis.modulemap";
-				PRODUCT_MODULE_NAME = IIOCUtis;
-				PRODUCT_NAME = IIOCUtis;
+				MODULEMAP_FILE = "Target Support Files/JGProgressHUD/JGProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = JGProgressHUD;
+				PRODUCT_NAME = JGProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -655,9 +1066,90 @@
 			};
 			name = Debug;
 		};
+		4AB9D9381B7C9DBD1BD1DBDF22C13F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE9114801DDC8AB2C92A4F59CA22B7C5 /* Pods-IIOCUtis_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IIOCUtis_Example/Pods-IIOCUtis_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IIOCUtis_Example/Pods-IIOCUtis_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E29CCC28BB150780646FFD394AF608A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF1B78C5B9A0F4D36403FD8FB2894F55 /* III18N.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/III18N/III18N-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/III18N/III18N-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/III18N/III18N.modulemap";
+				PRODUCT_MODULE_NAME = III18N;
+				PRODUCT_NAME = III18N;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		790ECE8826FC5AEF0E5A4B4B986EF0F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC7C812C742078E2CE438D977BF6480C /* JGProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JGProgressHUD";
+				INFOPLIST_FILE = "Target Support Files/JGProgressHUD/ResourceBundle-JGProgressHUD-JGProgressHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JGProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		7CBA96126C8BCC35CE3975020E855F0E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9834C68DBB9262CD39F0425075D504CD /* Pods-IIOCUtis_Tests.debug.xcconfig */;
+			baseConfigurationReference = 202853C810B03AB9BDAA216A8A0751E1 /* Pods-IIOCUtis_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -688,9 +1180,9 @@
 			};
 			name = Debug;
 		};
-		C296E2D72B3DFAE0A19E9BD16EBCD24A /* Debug */ = {
+		7DCD7E04E6078243EB2C0B8BDB6EF1E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 784BB04DE833862EC57D4ADF6177C9AD /* Pods-IIOCUtis_Example.debug.xcconfig */;
+			baseConfigurationReference = 43BDB865290C18D35C2A9E4464B546EF /* Pods-IIOCUtis_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -721,9 +1213,39 @@
 			};
 			name = Debug;
 		};
-		D28DE45EAAB6FF9962F7EF2675868405 /* Debug */ = {
+		94F8414F650961F7FB8DD469FB120F73 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17D03C7A969FE28E7BD85497C986D5BB /* IIOCUtis.xcconfig */;
+			baseConfigurationReference = EC7C812C742078E2CE438D977BF6480C /* JGProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JGProgressHUD/JGProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JGProgressHUD/JGProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JGProgressHUD/JGProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = JGProgressHUD;
+				PRODUCT_NAME = JGProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C697D11C69D1F205A6FB36AEC85BFD70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C40CFB3342FDCAB47B71A796F0E0F417 /* IIOCUtis.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -752,6 +1274,86 @@
 			};
 			name = Debug;
 		};
+		E1AAB03D46D158D65371C42517251A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC7C812C742078E2CE438D977BF6480C /* JGProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JGProgressHUD";
+				INFOPLIST_FILE = "Target Support Files/JGProgressHUD/ResourceBundle-JGProgressHUD-JGProgressHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JGProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E37963AD9CEDFBF731BD645190B44A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C40CFB3342FDCAB47B71A796F0E0F417 /* IIOCUtis.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IIOCUtis/IIOCUtis-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IIOCUtis/IIOCUtis-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IIOCUtis/IIOCUtis.modulemap";
+				PRODUCT_MODULE_NAME = IIOCUtis;
+				PRODUCT_NAME = IIOCUtis;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE2A4913C3622CD2ECAEEEEC0BDFF981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF1B78C5B9A0F4D36403FD8FB2894F55 /* III18N.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/III18N/III18N-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/III18N/III18N-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/III18N/III18N.modulemap";
+				PRODUCT_MODULE_NAME = III18N;
+				PRODUCT_NAME = III18N;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -773,20 +1375,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F444789E2A2E3C3D8231BCF6F369B8C /* Build configuration list for PBXNativeTarget "Pods-IIOCUtis_Example" */ = {
+		4BDF2451951B779994AD27C4E15FDB69 /* Build configuration list for PBXNativeTarget "JGProgressHUD-JGProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C296E2D72B3DFAE0A19E9BD16EBCD24A /* Debug */,
-				3390FF8208452C737D55FEF0FC96ADD9 /* Release */,
+				E1AAB03D46D158D65371C42517251A2D /* Debug */,
+				790ECE8826FC5AEF0E5A4B4B986EF0F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E32942729EAA3FBF799A740FF7DBBE9D /* Build configuration list for PBXNativeTarget "IIOCUtis" */ = {
+		5BC56056512290CDC007AE540D2AB000 /* Build configuration list for PBXNativeTarget "Pods-IIOCUtis_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D28DE45EAAB6FF9962F7EF2675868405 /* Debug */,
-				40D412E67ACE6C4A0E5120FAE1AF51FD /* Release */,
+				7DCD7E04E6078243EB2C0B8BDB6EF1E9 /* Debug */,
+				4AB9D9381B7C9DBD1BD1DBDF22C13F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D5AD5B2C1FE4523E736B366622BAB2D /* Build configuration list for PBXNativeTarget "III18N" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E29CCC28BB150780646FFD394AF608A /* Debug */,
+				FE2A4913C3622CD2ECAEEEEC0BDFF981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB525E944E1CDBD9D79779A972E2E124 /* Build configuration list for PBXNativeTarget "JGProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F8414F650961F7FB8DD469FB120F73 /* Debug */,
+				24E81D81895583932BEBF15DA8960313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E05CA1E1C0133B17AB925A4B9CAB006D /* Build configuration list for PBXNativeTarget "IIOCUtis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C697D11C69D1F205A6FB36AEC85BFD70 /* Debug */,
+				E37963AD9CEDFBF731BD645190B44A2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
