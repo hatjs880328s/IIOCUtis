@@ -1,6 +1,6 @@
 {
   "name": "IIOCUtis",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "summary": "记录oc中一些基础工具",
   "description": "IIOCUtis\n1.HUDProgress",
   "homepage": "https://github.com/hatjs880328s/IIOCUtis",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hatjs880328s/IIOCUtis.git",
-    "tag": "0.8.0"
+    "tag": "0.8.1"
   },
   "platforms": {
     "ios": "8.0"

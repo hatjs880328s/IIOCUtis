@@ -1,5 +1,6 @@
 
 #import "ProgressHUD.h"
+#import "JGProgressHUD.h"
 @import III18N;
 
 static ProgressHUD *_singleInstance = nil;

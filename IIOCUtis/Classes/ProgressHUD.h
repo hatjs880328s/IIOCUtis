@@ -1,6 +1,6 @@
 
 #import <UIKit/UIKit.h>
-#import "JGProgressHUD.h"
+
 
 @interface ProgressHUD : UIView
 
