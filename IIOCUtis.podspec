@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IIOCUtis'
-  s.version          = '0.8.6'
+  s.version          = '0.8.7'
   s.summary          = '记录oc中一些基础工具'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ IIOCUtis
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
 
   # s.source_files = 'IIOCUtis/Classes/*.{h,m,swift}'
   
@@ -53,7 +53,7 @@ IIOCUtis
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'III18N'
+  s.dependency 'II18N'
   # s.dependency 'JGProgressHUD'
-  s.dependency 'SDWebImage'
+  s.dependency 'SDWebImage', '4.4.6'
 end
