@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6AF237051559533D294CC3B7CA968083"
-               BuildableName = "IIOCUtis.framework"
+               BuildableName = "libIIOCUtis.a"
                BlueprintName = "IIOCUtis"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

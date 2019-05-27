@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39B8FBCDA37B697EC62FA6B1 /* Pods_IIOCUtis_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE553989386E244B1164C2D0 /* Pods_IIOCUtis_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		CBCC95434FE317A76F105A79 /* Pods_IIOCUtis_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9F6ADC606B8EB6E7751472 /* Pods_IIOCUtis_Example.framework */; };
+		96F7C1F69D8E99912633EDCC /* libPods-IIOCUtis_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D984FCEC08A6F5A692E4C0CF /* libPods-IIOCUtis_Tests.a */; };
+		F9ACC1CB94A66F51D1FD672A /* libPods-IIOCUtis_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FAE6091405513D1C71893AE /* libPods-IIOCUtis_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,7 @@
 /* Begin PBXFileReference section */
 		27B0018CE67C00BCB35F7D38 /* Pods-IIOCUtis_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IIOCUtis_Example.release.xcconfig"; path = "Target Support Files/Pods-IIOCUtis_Example/Pods-IIOCUtis_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5EF287DDF2EE8EA2E2CF94F8 /* Pods-IIOCUtis_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IIOCUtis_Tests.debug.xcconfig"; path = "Target Support Files/Pods-IIOCUtis_Tests/Pods-IIOCUtis_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FAE6091405513D1C71893AE /* libPods-IIOCUtis_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IIOCUtis_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* IIOCUtis_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IIOCUtis_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,11 +60,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		69DD363F44A8FB1A6998189E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		6A9F6ADC606B8EB6E7751472 /* Pods_IIOCUtis_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IIOCUtis_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA509B6F92DEF7FC8305F5D3 /* Pods-IIOCUtis_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IIOCUtis_Tests.release.xcconfig"; path = "Target Support Files/Pods-IIOCUtis_Tests/Pods-IIOCUtis_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EE553989386E244B1164C2D0 /* Pods_IIOCUtis_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IIOCUtis_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D984FCEC08A6F5A692E4C0CF /* libPods-IIOCUtis_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IIOCUtis_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC2F36DB70AC03C2C73851C /* IIOCUtis.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IIOCUtis.podspec; path = ../IIOCUtis.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F4358DBCD984D27B98BB3F7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F7235FA17E85121AF24B71F8 /* Pods-IIOCUtis_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IIOCUtis_Example.debug.xcconfig"; path = "Target Support Files/Pods-IIOCUtis_Example/Pods-IIOCUtis_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				CBCC95434FE317A76F105A79 /* Pods_IIOCUtis_Example.framework in Frameworks */,
+				F9ACC1CB94A66F51D1FD672A /* libPods-IIOCUtis_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				39B8FBCDA37B697EC62FA6B1 /* Pods_IIOCUtis_Tests.framework in Frameworks */,
+				96F7C1F69D8E99912633EDCC /* libPods-IIOCUtis_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				6A9F6ADC606B8EB6E7751472 /* Pods_IIOCUtis_Example.framework */,
-				EE553989386E244B1164C2D0 /* Pods_IIOCUtis_Tests.framework */,
+				5FAE6091405513D1C71893AE /* libPods-IIOCUtis_Example.a */,
+				D984FCEC08A6F5A692E4C0CF /* libPods-IIOCUtis_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				D30619DE08914A5323EFE8E6 /* [CP] Embed Pods Frameworks */,
+				F64F101424BE7255880940D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -316,34 +316,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D30619DE08914A5323EFE8E6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IIOCUtis_Example/Pods-IIOCUtis_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
-				"${BUILT_PRODUCTS_DIR}/II18N/II18N.framework",
-				"${BUILT_PRODUCTS_DIR}/IIOCUtis/IIOCUtis.framework",
-				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/II18N.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IIOCUtis.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IIOCUtis_Example/Pods-IIOCUtis_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		EBD664403AEE16410EF2998E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -364,6 +336,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F64F101424BE7255880940D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IIOCUtis_Example/Pods-IIOCUtis_Example-resources.sh",
+				"${PODS_ROOT}/../../IIOCUtis/Classes/IIMJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/../../IIOCUtis/Classes/IIProgressHUD/jg_hud_error.png",
+				"${PODS_ROOT}/../../IIOCUtis/Classes/IIProgressHUD/jg_hud_error@2x.png",
+				"${PODS_ROOT}/../../IIOCUtis/Classes/IIProgressHUD/jg_hud_error@3x.png",
+				"${PODS_ROOT}/../../IIOCUtis/Classes/IIProgressHUD/jg_hud_success.png",
+				"${PODS_ROOT}/../../IIOCUtis/Classes/IIProgressHUD/jg_hud_success@2x.png",
+				"${PODS_ROOT}/../../IIOCUtis/Classes/IIProgressHUD/jg_hud_success@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/jg_hud_error.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/jg_hud_error@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/jg_hud_error@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/jg_hud_success.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/jg_hud_success@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/jg_hud_success@3x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IIOCUtis_Example/Pods-IIOCUtis_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

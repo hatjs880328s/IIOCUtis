@@ -1,4 +1,4 @@
-framework module II18N {
+module II18N {
   umbrella header "II18N-umbrella.h"
 
   export *
