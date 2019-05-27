@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IIOCUtis'
-  s.version          = '0.8.7'
+  s.version          = '0.8.8'
   s.summary          = '记录oc中一些基础工具'
 
 # This description is used to generate tags and improve search results.
@@ -19,7 +19,14 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 IIOCUtis
-1.HUDProgress
+
+1.AccessToken
+2.GetDevice
+3.RouteAlert
+4.Utilities
+5.Impcache
+6.IMPUser & EnterpriseModel
+7.HUDProgress
                        DESC
 
   s.homepage         = 'https://github.com/hatjs880328s/IIOCUtis'
@@ -51,9 +58,32 @@ IIOCUtis
       ss.resource = 'IIOCUtis/Classes/IIProgressHUD/*.png'
   end
 
+  s.subspec 'AccessToken' do |ss|
+      ss.source_files = 'IIOCUtis/Classes/AccessToken/*.{h,m}'
+  end
+
+  s.subspec 'GETDevice' do |ss|
+      ss.source_files = 'IIOCUtis/Classes/GETDevice/*.{h,m}'
+  end
+
+  s.subspec 'IIRouteAlert' do |ss|
+      ss.source_files = 'IIOCUtis/Classes/IIRouteAlert/*.{h,m}'
+  end
+
+  s.subspec 'UTI' do |ss|
+      ss.source_files = 'IIOCUtis/Classes/UTI/*.{h,m}'
+  end
+
+  s.subspec 'Cache' do |ss|
+      ss.source_files = 'IIOCUtis/Classes/Cache/*.{h,m}'
+  end
+
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'II18N'
-  # s.dependency 'JGProgressHUD'
+  s.dependency 'Toast'
   s.dependency 'SDWebImage', '4.4.6'
+  s.dependency 'FMDB'
+  s.dependency 'MJExtension'
+
 end
