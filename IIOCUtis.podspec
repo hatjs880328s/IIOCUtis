@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IIOCUtis'
-  s.version          = '0.8.9'
+  s.version          = '0.8.10'
   s.summary          = '记录oc中一些基础工具'
 
 # This description is used to generate tags and improve search results.
@@ -76,6 +76,11 @@ IIOCUtis
 
   s.subspec 'Cache' do |ss|
       ss.source_files = 'IIOCUtis/Classes/Cache/*.{h,m}'
+  end
+
+  #Constant
+  s.subspec 'Constant' do |ss|
+    ss.source_files = 'IIOCUtis/Classes/Constant/*.{h,m}'
   end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

@@ -1,6 +1,6 @@
 {
   "name": "IIOCUtis",
-  "version": "0.8.8",
+  "version": "0.8.10",
   "summary": "记录oc中一些基础工具",
   "description": "IIOCUtis\n\n1.AccessToken\n2.GetDevice\n3.RouteAlert\n4.Utilities\n5.Impcache\n6.IMPUser & EnterpriseModel\n7.HUDProgress",
   "homepage": "https://github.com/hatjs880328s/IIOCUtis",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hatjs880328s/IIOCUtis.git",
-    "tag": "0.8.8"
+    "tag": "0.8.10"
   },
   "platforms": {
     "ios": "8.0"
@@ -69,6 +69,10 @@
     {
       "name": "Cache",
       "source_files": "IIOCUtis/Classes/Cache/*.{h,m}"
+    },
+    {
+      "name": "Constant",
+      "source_files": "IIOCUtis/Classes/Constant/*.{h,m}"
     }
   ],
   "swift_version": "5.0"
