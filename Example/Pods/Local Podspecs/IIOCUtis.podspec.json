@@ -72,6 +72,11 @@
     },
     {
       "name": "Constant",
+      "dependencies": {
+        "IIOCUtis/Cache": [
+
+        ]
+      },
       "source_files": "IIOCUtis/Classes/Constant/*.{h,m}"
     }
   ],
