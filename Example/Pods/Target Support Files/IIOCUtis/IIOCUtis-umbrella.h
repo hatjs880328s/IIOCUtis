@@ -17,6 +17,7 @@
 #import "CloudDiskDefine.h"
 #import "Constants.h"
 #import "ServiceAPI.h"
+#import "TakeRouterSocketAdressClass.h"
 #import "GetDeviceUUIDClass.h"
 #import "GetUUIDProtocal.h"
 #import "KeyChainStore.h"
