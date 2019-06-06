@@ -7,7 +7,7 @@
 //
 
 #import "TakeRouterSocketAdressClass.h"
-@import IIOCUtis;
+#import "IMPUserModel.h"
 
 @implementation TakeRouterSocketAdressClass
 

@@ -80,7 +80,8 @@ IIOCUtis
 
   #Constant
   s.subspec 'Constant' do |ss|
-    ss.source_files = 'IIOCUtis/Classes/Constant/*.{h,m}'
+      ss.dependency 'IIOCUtis/Cache'
+      ss.source_files = 'IIOCUtis/Classes/Constant/*.{h,m}'
   end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
