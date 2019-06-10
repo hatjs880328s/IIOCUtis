@@ -353,4 +353,6 @@
 #define nilOrJSONObjectForKey(JSON_, KEY_) [JSON_ objectForKey:KEY_] == [NSNull null] ? nil : [JSON_ valueForKeyPath:KEY_];
 #define blankOrJSONObjectForKey(JSON_, KEY_) [JSON_ objectForKey:KEY_] == [NSNull null] ? @"" : [JSON_ valueForKeyPath:KEY_];
 
+ #define IITokenRequestUrlServiceConfig     [NSString stringWithFormat:@"%@_%d.iitokenrequesturlserviceconfig_1",[IMPUserModel activeInstance].enterprise.code,[IMPUserModel activeInstance].id]
+
 #endif
