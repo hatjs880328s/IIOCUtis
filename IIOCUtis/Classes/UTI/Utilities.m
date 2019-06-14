@@ -1038,15 +1038,15 @@ static NSMutableArray *viewControllersToBeDeleted;
     if(img != nil) {
         return img;
     }
-    CGSize size = CGSizeMake(120, 120);
+    CGSize size = CGSizeMake(180, 180);
     CGRect rect = CGRectMake(0, 0, size.width, size.height);
     UIGraphicsBeginImageContextWithOptions(rect.size, NO, 0);
     CGContextRef context = UIGraphicsGetCurrentContext();
-    UIColor *color = [UIColor colorWithRed:255/255.0 green:128/255.0 blue:128/255.0 alpha:1];
+    UIColor *color = [UIColor colorWithRed:54/255.0 green:165/255.0 blue:246/255.0 alpha:1];
     //Color
     CGContextSetFillColorWithColor(context, color.CGColor);
     CGContextFillRect(context, rect);
-    NSDictionary *textAttributes = [NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], NSForegroundColorAttributeName, [UIFont boldSystemFontOfSize:64], NSFontAttributeName, nil];
+    NSDictionary *textAttributes = [NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], NSForegroundColorAttributeName, [UIFont systemFontOfSize:104], NSFontAttributeName, nil];
     CGSize textSize = [lastWord sizeWithAttributes:textAttributes];
     [lastWord drawInRect:CGRectMake((size.width - textSize.width) / 2, (size.height - textSize.height) / 2, textSize.width, textSize.height) withAttributes:textAttributes];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
