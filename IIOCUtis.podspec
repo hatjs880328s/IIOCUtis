@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IIOCUtis'
-  s.version          = '0.8.23'
+  s.version          = '0.8.24'
   s.summary          = '记录oc中一些基础工具'
 
 # This description is used to generate tags and improve search results.
@@ -27,6 +27,7 @@ IIOCUtis
 5.Impcache
 6.IMPUser & EnterpriseModel
 7.HUDProgress
+8.QueryUserDisplayInfoClass
                        DESC
 
   s.homepage         = 'https://github.com/hatjs880328s/IIOCUtis'
@@ -87,6 +88,13 @@ IIOCUtis
   s.subspec 'Constant' do |ss|
       ss.dependency 'IIOCUtis/Cache'
       ss.source_files = 'IIOCUtis/Classes/Constant/*.{h,m}'
+  end
+
+  #UserInfoDisplay
+  s.subspec 'UserInfoDisplay' do |ss|
+      ss.dependency 'IIOCUtis/Cache'
+      ss.dependency 'IIOCUtis/Constant'
+      ss.source_files = 'IIOCUtis/Classes/UserInfoDisplay/*.{h,m}'
   end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

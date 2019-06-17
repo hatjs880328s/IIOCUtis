@@ -64,6 +64,8 @@
 #import "SBJsonParser.h"
 #import "SBJsonWriter.h"
 #import "Utilities.h"
+#import "QueryUserDisplayInfoClass.h"
+#import "UserInfoDisplayConfigModel.h"
 
 FOUNDATION_EXPORT double IIOCUtisVersionNumber;
 FOUNDATION_EXPORT const unsigned char IIOCUtisVersionString[];
