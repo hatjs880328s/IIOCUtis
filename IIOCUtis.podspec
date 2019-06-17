@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IIOCUtis'
-  s.version          = '0.8.22'
+  s.version          = '0.8.23'
   s.summary          = '记录oc中一些基础工具'
 
 # This description is used to generate tags and improve search results.
@@ -96,5 +96,6 @@ IIOCUtis
   s.dependency 'SDWebImage', '4.4.6'
   s.dependency 'FMDB'
   s.dependency 'MJExtension'
+  s.dependency 'MONActivityIndicatorView'
 
 end

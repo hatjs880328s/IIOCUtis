@@ -1,5 +1,5 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/II18N" "${PODS_ROOT}/Headers/Public/IIOCUtis" "${PODS_ROOT}/Headers/Public/MJExtension" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/Toast"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/II18N" "${PODS_ROOT}/Headers/Public/IIOCUtis" "${PODS_ROOT}/Headers/Public/MJExtension" "${PODS_ROOT}/Headers/Public/MONActivityIndicatorView" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/Toast"
 OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/II18N/II18N.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/IIOCUtis/IIOCUtis.modulemap"
 OTHER_LDFLAGS = $(inherited) -l"sqlite3" -framework "ImageIO" -framework "QuartzCore"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/II18N/II18N.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/IIOCUtis/IIOCUtis.modulemap"
