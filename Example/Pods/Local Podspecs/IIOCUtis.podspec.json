@@ -1,8 +1,8 @@
 {
   "name": "IIOCUtis",
-  "version": "0.8.24",
+  "version": "0.8.25",
   "summary": "记录oc中一些基础工具",
-  "description": "IIOCUtis\n\n1.AccessToken\n2.GetDevice\n3.RouteAlert\n4.Utilities\n5.Impcache\n6.IMPUser & EnterpriseModel\n7.HUDProgress",
+  "description": "IIOCUtis\n\n1.AccessToken\n2.GetDevice\n3.RouteAlert\n4.Utilities\n5.Impcache\n6.IMPUser & EnterpriseModel\n7.HUDProgress\n8.QueryUserDisplayInfoClass",
   "homepage": "https://github.com/hatjs880328s/IIOCUtis",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hatjs880328s/IIOCUtis.git",
-    "tag": "0.8.24"
+    "tag": "0.8.25"
   },
   "platforms": {
     "ios": "8.0"
@@ -36,9 +36,6 @@
 
     ],
     "MJExtension": [
-
-    ],
-    "MONActivityIndicatorView": [
 
     ]
   },
@@ -89,6 +86,14 @@
     },
     {
       "name": "UserInfoDisplay",
+      "dependencies": {
+        "IIOCUtis/Cache": [
+
+        ],
+        "IIOCUtis/Constant": [
+
+        ]
+      },
       "source_files": "IIOCUtis/Classes/UserInfoDisplay/*.{h,m}"
     }
   ],
