@@ -6,6 +6,7 @@
 //  Copyright (c) 2015年 Elliot. All rights reserved.
 //  公共文件
 
+#import <UIKit/UIKit.h>
 
 //判断iPhone、iPad
 typedef NS_ENUM(NSInteger, ETDeviceSeries) {
