@@ -1,9 +1,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RouteAlert : NSObject<UIAlertViewDelegate>
+@interface RouteAlert : NSObject
 
 + (RouteAlert *)shareInstance;
-- (void)showAlert:(NSString *)str;
+- (void)showAlert:(NSString *)msg;
 
 @end

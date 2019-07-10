@@ -21,21 +21,14 @@ static RouteAlert *_routeAlert = nil;
     return _routeAlert;
 }
 
-- (void)showAlert:(NSString *)str {
+- (void)showAlert:(NSString *)msg {
     if (!isShowOrNot) {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:str delegate:self cancelButtonTitle:IMPLocalizedString(@"common_sure") otherButtonTitles:nil];
-        [alert show];
         isShowOrNot = YES;
-    }
-}
-
--(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
-    isShowOrNot = NO;
-}
-
-- (void)dealloc {
-    if (_routeAlert) {
-        _routeAlert = nil;
+        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:nil message:msg preferredStyle:UIAlertControllerStyleAlert];
+        [alertController addAction:[UIAlertAction actionWithTitle:IMPLocalizedString(@"common_sure") style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            self->isShowOrNot = NO;
+        }]];
+        [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:alertController animated:YES completion:^{}];
     }
 }
 

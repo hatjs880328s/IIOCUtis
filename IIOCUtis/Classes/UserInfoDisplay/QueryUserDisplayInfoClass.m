@@ -17,13 +17,23 @@
     //  UserInfoDisplayConfigModel初始化
     UserInfoDisplayConfigModel *dataSource = [[UserInfoDisplayConfigModel alloc] init];
     //  Name
-    ShowUserDisplayModel *name = [[ShowUserDisplayModel alloc] initWithDictionary:@{@"value":[IMPUserModel activeInstance].userName, @"show":@YES}];
+    //  增加userName判空处理
+    NSString *userName = [IMPUserModel activeInstance].userName;
+    if (userName == nil) {
+        userName = @"";
+    }
+    ShowUserDisplayModel *name = [[ShowUserDisplayModel alloc] initWithDictionary:@{@"value":userName, @"show":@YES}];
     dataSource.name = name;
     //  头像
     ShowUserDisplayModel *headUrl = [[ShowUserDisplayModel alloc] initWithDictionary:@{@"value":@"", @"show":@YES}];
     dataSource.headUrl = headUrl;
     //  EnterpriseName
-    ShowUserDisplayModel *enterpriseName = [[ShowUserDisplayModel alloc] initWithDictionary:@{@"value":[IMPUserModel activeInstance].enterprise.name, @"show":@YES}];
+    //  增加EnterpriseName判空处理
+    NSString *eName = [IMPUserModel activeInstance].enterprise.name;
+    if (eName == nil) {
+        eName = @"";
+    }
+    ShowUserDisplayModel *enterpriseName = [[ShowUserDisplayModel alloc] initWithDictionary:@{@"value":eName, @"show":@YES}];
     dataSource.enterpriseName = enterpriseName;
     return dataSource;
 }
