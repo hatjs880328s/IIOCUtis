@@ -297,9 +297,6 @@
 /// 工作试图切换通知key
 #define kWorkBenchListVwAndDayVwChangeNoti    @"kWorkBenchListVwAndDayVwChangeNoti"
 
-//数据库
-#define WCDBPassword                          @"ImpWCDB100"
-
 //新版任务
 //排序
 #define TaskSortOrderConfig               [NSString stringWithFormat:@"%@_%d.tasksortorderconfig",[IMPUserModel activeInstance].enterprise.code,[IMPUserModel activeInstance].id]
@@ -354,5 +351,8 @@
 #define blankOrJSONObjectForKey(JSON_, KEY_) [JSON_ objectForKey:KEY_] == [NSNull null] ? @"" : [JSON_ valueForKeyPath:KEY_];
 
  #define IITokenRequestUrlServiceConfig     [NSString stringWithFormat:@"%@_%d.iitokenrequesturlserviceconfig_1",[IMPUserModel activeInstance].enterprise.code,[IMPUserModel activeInstance].id]
+
+//是否支持Exchange
+#define SupportExchange [NSString stringWithFormat:@"%@_%d_SupportExchange",[IMPUserModel activeInstance].enterprise.code,[IMPUserModel activeInstance].id]
 
 #endif
