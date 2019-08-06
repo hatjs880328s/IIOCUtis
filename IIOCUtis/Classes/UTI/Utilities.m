@@ -116,7 +116,7 @@ static NSMutableArray *viewControllersToBeDeleted;
 }
 
 /**************设备信息相关********/
-//获取设备型号，截止到2019-01
+//获取设备型号，截止到2019-08
 + (NSString *)getDeviceModel {
     struct utsname systemInfo;
     uname(&systemInfo);
@@ -160,6 +160,7 @@ static NSMutableArray *viewControllersToBeDeleted;
     if ([deviceString isEqualToString:@"iPod4,1"])      return @"iPod touch (4th generation)";
     if ([deviceString isEqualToString:@"iPod5,1"])      return @"iPod touch (5th generation)";
     if ([deviceString isEqualToString:@"iPod7,1"])      return @"iPod touch (6th generation)";
+    if ([deviceString isEqualToString:@"iPod9,1"])      return @"iPod touch (7th generation)";
     //iPad
     if ([deviceString isEqualToString:@"iPad1,1"])      return @"iPad";
     if ([deviceString isEqualToString:@"iPad2,1"])      return @"iPad 2";
@@ -189,6 +190,16 @@ static NSMutableArray *viewControllersToBeDeleted;
     if ([deviceString isEqualToString:@"iPad7,4"])      return @"iPad Pro (10.5-inch)";
     if ([deviceString isEqualToString:@"iPad7,5"])      return @"iPad (6th generation)";
     if ([deviceString isEqualToString:@"iPad7,6"])      return @"iPad (6th generation)";
+    if ([deviceString isEqualToString:@"iPad8,1"])      return @"iPad Pro (11-inch)";
+    if ([deviceString isEqualToString:@"iPad8,2"])      return @"iPad Pro (11-inch)";
+    if ([deviceString isEqualToString:@"iPad8,3"])      return @"iPad Pro (11-inch)";
+    if ([deviceString isEqualToString:@"iPad8,4"])      return @"iPad Pro (11-inch)";
+    if ([deviceString isEqualToString:@"iPad8,5"])      return @"iPad Pro (12.9-inch) (3rd generation)";
+    if ([deviceString isEqualToString:@"iPad8,6"])      return @"iPad Pro (12.9-inch) (3rd generation)";
+    if ([deviceString isEqualToString:@"iPad8,7"])      return @"iPad Pro (12.9-inch) (3rd generation)";
+    if ([deviceString isEqualToString:@"iPad8,8"])      return @"iPad Pro (12.9-inch) (3rd generation)";
+    if ([deviceString isEqualToString:@"iPad11,3"])     return @"iPad Air (3rd generation)";
+    if ([deviceString isEqualToString:@"iPad11,4"])     return @"iPad Air (3rd generation)";
     //iPad mini
     if ([deviceString isEqualToString:@"iPad2,5"])      return @"iPad mini";
     if ([deviceString isEqualToString:@"iPad2,6"])      return @"iPad mini";
@@ -201,6 +212,8 @@ static NSMutableArray *viewControllersToBeDeleted;
     if ([deviceString isEqualToString:@"iPad4,9"])      return @"iPad mini 3";
     if ([deviceString isEqualToString:@"iPad5,1"])      return @"iPad mini 4";
     if ([deviceString isEqualToString:@"iPad5,2"])      return @"iPad mini 4";
+    if ([deviceString isEqualToString:@"iPad11,1"])     return @"iPad mini (5th generation)";
+    if ([deviceString isEqualToString:@"iPad11,2"])     return @"iPad mini (5th generation)";
     //Simulator
     if ([deviceString isEqualToString:@"i386"])         return @"iOS Simulator";
     if ([deviceString isEqualToString:@"x86_64"])       return @"iOS Simulator";

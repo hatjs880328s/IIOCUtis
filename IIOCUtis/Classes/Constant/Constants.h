@@ -96,14 +96,14 @@
 //判断iPhoneXs Max
 #define IS_IPHONE_Xs_Max ([Utilities getDeviceSeries] == iPhoneXsMax_Series_2688x1242)
 
-#define SafeAreaTopHeight_NoNav ((IS_IPHONE_X == YES || IS_IPHONE_Xr == YES || IS_IPHONE_Xs_Max == YES) ? 44 : 20)
-#define SafeAreaTopHeight_Nav ((IS_IPHONE_X == YES || IS_IPHONE_Xr == YES || IS_IPHONE_Xs_Max == YES) ? 88 : 64)
-#define SafeAreaBottomHeight ((IS_IPHONE_X == YES || IS_IPHONE_Xr == YES || IS_IPHONE_Xs_Max == YES) ? 34 : 0)
-#define kTabBarHeight ((IS_IPHONE_X == YES || IS_IPHONE_Xr == YES || IS_IPHONE_Xs_Max == YES) ? 83 : 49)
-#define webWindowHeight ((IS_IPHONE_X == YES || IS_IPHONE_Xr == YES || IS_IPHONE_Xs_Max == YES) ? 34 : 6)
-#define SafeAreaTopHeight_QR_Top ((IS_IPHONE_X == YES || IS_IPHONE_Xr == YES || IS_IPHONE_Xs_Max == YES) ? 24 : 0)
-#define SafeAreaTopHeight_QR_ScanArea ((IS_IPHONE_X == YES || IS_IPHONE_Xr == YES || IS_IPHONE_Xs_Max == YES) ? 55 : 0)
-//#define LogOutButtonBottomHeight ((IS_IPHONE_X == YES || IS_IPHONE_Xr == YES || IS_IPHONE_Xs_Max == YES) ? 65 : 31)
+#define SafeAreaTopHeight_NoNav ((IS_IPHONE_X == YES || IS_IPHONE_Xr == YES || IS_IPHONE_Xs_Max == YES || [[UIScreen mainScreen] bounds].size.height == 812.0f) ? 44 : 20)
+#define SafeAreaTopHeight_Nav ((IS_IPHONE_X == YES || IS_IPHONE_Xr == YES || IS_IPHONE_Xs_Max == YES || [[UIScreen mainScreen] bounds].size.height == 812.0f) ? 88 : 64)
+#define SafeAreaBottomHeight ((IS_IPHONE_X == YES || IS_IPHONE_Xr == YES || IS_IPHONE_Xs_Max == YES || [[UIScreen mainScreen] bounds].size.height == 812.0f) ? 34 : 0)
+#define kTabBarHeight ((IS_IPHONE_X == YES || IS_IPHONE_Xr == YES || IS_IPHONE_Xs_Max == YES || [[UIScreen mainScreen] bounds].size.height == 812.0f) ? 83 : 49)
+#define webWindowHeight ((IS_IPHONE_X == YES || IS_IPHONE_Xr == YES || IS_IPHONE_Xs_Max == YES || [[UIScreen mainScreen] bounds].size.height == 812.0f) ? 34 : 6)
+#define SafeAreaTopHeight_QR_Top ((IS_IPHONE_X == YES || IS_IPHONE_Xr == YES || IS_IPHONE_Xs_Max == YES || [[UIScreen mainScreen] bounds].size.height == 812.0f) ? 24 : 0)
+#define SafeAreaTopHeight_QR_ScanArea ((IS_IPHONE_X == YES || IS_IPHONE_Xr == YES || IS_IPHONE_Xs_Max == YES || [[UIScreen mainScreen] bounds].size.height == 812.0f) ? 55 : 0)
+//#define LogOutButtonBottomHeight ((IS_IPHONE_X == YES || IS_IPHONE_Xr == YES || IS_IPHONE_Xs_Max == YES || [[UIScreen mainScreen] bounds].size.height == 812.0f) ? 65 : 31)
 
 #define New_XZSPID                      @"456166a362436750d74bfeaef997693d"
 
