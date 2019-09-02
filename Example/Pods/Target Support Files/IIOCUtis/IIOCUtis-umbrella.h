@@ -14,7 +14,6 @@
 #import "IMPCache.h"
 #import "IMPEnterpriseModel.h"
 #import "IMPUserModel.h"
-#import "CloudDiskDefine.h"
 #import "Constants.h"
 #import "ServiceAPI.h"
 #import "TakeRouterSocketAdressClass.h"
