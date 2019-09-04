@@ -69,6 +69,7 @@
 
 //通知
 #define kNotificationPullChatData       @"kNotificationPullChatData"
+#define notificationRedicetData         @"NotificationRedicetData"
 
 //判读网址正则
 #define REGEX_URI                       @"(\\[[^\\[\\]]+\\])\\((((https?|ec[cm](-[0-9a-z]+)+|gs-msg)://[a-zA-Z0-9\\_\\-]+(\\.[a-zA-Z0-9\\_\\-]+)*(\\:\\d{2,4})?(/?[a-zA-Z0-9\\-\\_\\.\\?\\=\\&\\%\\#]+)*/?)|([a-zA-Z0-9\\-\\_]+\\.)+([a-zA-Z\\-\\_]+)(\\:\\d{2,4})?(/?[a-zA-Z0-9\\-\\_\\.\\?\\=\\&\\%\\#]+)*/?|\\d+(\\.\\d+){3}(\\:\\d{2,4})?)\\)"
@@ -350,7 +351,7 @@
 #define nilOrJSONObjectForKey(JSON_, KEY_) [JSON_ objectForKey:KEY_] == [NSNull null] ? nil : [JSON_ valueForKeyPath:KEY_];
 #define blankOrJSONObjectForKey(JSON_, KEY_) [JSON_ objectForKey:KEY_] == [NSNull null] ? @"" : [JSON_ valueForKeyPath:KEY_];
 
- #define IITokenRequestUrlServiceConfig     [NSString stringWithFormat:@"%@_%d.iitokenrequesturlserviceconfig_1",[IMPUserModel activeInstance].enterprise.code,[IMPUserModel activeInstance].id]
+#define IITokenRequestUrlServiceConfig     [NSString stringWithFormat:@"%@_%d.iitokenrequesturlserviceconfig_1",[IMPUserModel activeInstance].enterprise.code,[IMPUserModel activeInstance].id]
 
 //是否支持Exchange
 #define SupportExchange [NSString stringWithFormat:@"%@_%d_SupportExchange",[IMPUserModel activeInstance].enterprise.code,[IMPUserModel activeInstance].id]

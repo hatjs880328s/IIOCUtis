@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IIOCUtis'
-  s.version          = '0.9.2'
+  s.version          = '0.9.3'
   s.summary          = '记录oc中一些基础工具'
 
 # This description is used to generate tags and improve search results.
