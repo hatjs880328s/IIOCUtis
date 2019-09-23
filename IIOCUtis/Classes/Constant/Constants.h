@@ -259,7 +259,7 @@
 #define ChannelMessageChangeState      @"change_channel_message_state"
 
 //语音转文字设置
-#define RecordTextConfig               [NSString stringWithFormat:@"%@_%d.RecordTextConfig",[IMPUserModel activeInstance].enterprise.code,[IMPUserModel activeInstance].id]
+#define AutoRecordToText               [NSString stringWithFormat:@"%@_%d.AutoRecordToText",[IMPUserModel activeInstance].enterprise.code,[IMPUserModel activeInstance].id]
 //语音存储目录名称
 #define AudioFolderName                @"AudioData"
 
