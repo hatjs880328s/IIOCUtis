@@ -38,6 +38,10 @@
 #define kReceiveMSGForCache             @"CacheMSG"
 #define kSocketStatusChange             @"SOCKET_STATUS"
 
+//视频通话通知名称
+#define VideoCallNotification @"Socket_VideoCall_Noti"
+#define VideoCallNotificationKey @"Socket_VideoCall_Noti_Key"
+
 #define kTokenRefreshRetryCount         1
 //图片选择数量
 #define SelectPhotoNum                  9
