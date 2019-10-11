@@ -13,7 +13,6 @@
 #import "sys/utsname.h"
 #import <UIKit/UIKit.h>
 #import "Toast.h"
-#import "SDImageCache.h"
 
 //判断iOS设备
 //iPhone 4、4s
@@ -686,14 +685,6 @@ static NSMutableArray *viewControllersToBeDeleted;
             return false;
         }
     }
-}
-
-/**
- *  SDWebImage  删除特定url图片的缓存
- */
-+ (void)clearCacheWithUrl:(NSString *)url
-{
-    [[SDImageCache sharedImageCache] removeImageForKey:url withCompletion:^{}];
 }
 
 /*
