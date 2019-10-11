@@ -13,6 +13,7 @@
 #import "sys/utsname.h"
 #import <UIKit/UIKit.h>
 #import "Toast.h"
+#import "SDImageCache.h"
 
 //判断iOS设备
 //iPhone 4、4s
