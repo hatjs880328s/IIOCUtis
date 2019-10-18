@@ -687,14 +687,6 @@ static NSMutableArray *viewControllersToBeDeleted;
     }
 }
 
-/**
- *  SDWebImage  删除特定url图片的缓存
- */
-+ (void)clearCacheWithUrl:(NSString *)url
-{
-    [[SDImageCache sharedImageCache] removeImageForKey:url withCompletion:^{}];
-}
-
 /*
     jsonStr与 Dic 的转化
     Modify By Jacky Zang

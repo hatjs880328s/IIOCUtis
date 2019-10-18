@@ -127,11 +127,6 @@ typedef NS_ENUM(NSInteger, ETDeviceSeries) {
 
 + (BOOL)isEmpty:(NSString *)str;
 
-/**
- *  SDWebImage  删除特定url图片的缓存
- */
-+ (void)clearCacheWithUrl:(NSString *)url;
-
 + (NSObject *)dicFromJSONStr:(NSString *)jsonStr;
 + (NSString *)JSONStrFromDic:(NSObject *)dic;
 

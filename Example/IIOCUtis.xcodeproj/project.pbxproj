@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = hatjs880328s;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = NVGL8H4887;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -257,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -505,6 +509,7 @@
 			baseConfigurationReference = F7235FA17E85121AF24B71F8 /* Pods-IIOCUtis_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NVGL8H4887;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IIOCUtis/IIOCUtis-Prefix.pch";
 				INFOPLIST_FILE = "IIOCUtis/IIOCUtis-Info.plist";
@@ -520,6 +525,7 @@
 			baseConfigurationReference = 27B0018CE67C00BCB35F7D38 /* Pods-IIOCUtis_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NVGL8H4887;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IIOCUtis/IIOCUtis-Prefix.pch";
 				INFOPLIST_FILE = "IIOCUtis/IIOCUtis-Info.plist";

@@ -3,89 +3,89 @@ PODS:
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
   - II18N (0.1.0)
-  - IIOCUtis (0.9.2):
+  - IIOCUtis (1.0.0):
     - FMDB
     - II18N
-    - IIOCUtis/AccessToken (= 0.9.2)
-    - IIOCUtis/Cache (= 0.9.2)
-    - IIOCUtis/Constant (= 0.9.2)
-    - IIOCUtis/GETDevice (= 0.9.2)
-    - IIOCUtis/IIMJRefresh (= 0.9.2)
-    - IIOCUtis/IIProgressHUD (= 0.9.2)
-    - IIOCUtis/IIRouteAlert (= 0.9.2)
-    - IIOCUtis/SBJSON (= 0.9.2)
-    - IIOCUtis/UserInfoDisplay (= 0.9.2)
-    - IIOCUtis/UTI (= 0.9.2)
+    - IIOCUtis/AccessToken (= 1.0.0)
+    - IIOCUtis/Cache (= 1.0.0)
+    - IIOCUtis/Constant (= 1.0.0)
+    - IIOCUtis/GETDevice (= 1.0.0)
+    - IIOCUtis/IIMJRefresh (= 1.0.0)
+    - IIOCUtis/IIProgressHUD (= 1.0.0)
+    - IIOCUtis/IIRouteAlert (= 1.0.0)
+    - IIOCUtis/SBJSON (= 1.0.0)
+    - IIOCUtis/UserInfoDisplay (= 1.0.0)
+    - IIOCUtis/UTI (= 1.0.0)
     - MJExtension
-    - SDWebImage (= 4.4.6)
+    - SDWebImage
     - Toast
-  - IIOCUtis/AccessToken (0.9.2):
-    - FMDB
-    - II18N
-    - MJExtension
-    - SDWebImage (= 4.4.6)
-    - Toast
-  - IIOCUtis/Cache (0.9.2):
+  - IIOCUtis/AccessToken (1.0.0):
     - FMDB
     - II18N
     - MJExtension
-    - SDWebImage (= 4.4.6)
+    - SDWebImage
     - Toast
-  - IIOCUtis/Constant (0.9.2):
+  - IIOCUtis/Cache (1.0.0):
+    - FMDB
+    - II18N
+    - MJExtension
+    - SDWebImage
+    - Toast
+  - IIOCUtis/Constant (1.0.0):
     - FMDB
     - II18N
     - IIOCUtis/Cache
     - MJExtension
-    - SDWebImage (= 4.4.6)
+    - SDWebImage
     - Toast
-  - IIOCUtis/GETDevice (0.9.2):
+  - IIOCUtis/GETDevice (1.0.0):
     - FMDB
     - II18N
     - MJExtension
-    - SDWebImage (= 4.4.6)
+    - SDWebImage
     - Toast
-  - IIOCUtis/IIMJRefresh (0.9.2):
+  - IIOCUtis/IIMJRefresh (1.0.0):
     - FMDB
     - II18N
     - MJExtension
-    - SDWebImage (= 4.4.6)
+    - SDWebImage
     - Toast
-  - IIOCUtis/IIProgressHUD (0.9.2):
+  - IIOCUtis/IIProgressHUD (1.0.0):
     - FMDB
     - II18N
     - MJExtension
-    - SDWebImage (= 4.4.6)
+    - SDWebImage
     - Toast
-  - IIOCUtis/IIRouteAlert (0.9.2):
+  - IIOCUtis/IIRouteAlert (1.0.0):
     - FMDB
     - II18N
     - MJExtension
-    - SDWebImage (= 4.4.6)
+    - SDWebImage
     - Toast
-  - IIOCUtis/SBJSON (0.9.2):
+  - IIOCUtis/SBJSON (1.0.0):
     - FMDB
     - II18N
     - MJExtension
-    - SDWebImage (= 4.4.6)
+    - SDWebImage
     - Toast
-  - IIOCUtis/UserInfoDisplay (0.9.2):
+  - IIOCUtis/UserInfoDisplay (1.0.0):
     - FMDB
     - II18N
     - IIOCUtis/Cache
     - IIOCUtis/Constant
     - MJExtension
-    - SDWebImage (= 4.4.6)
+    - SDWebImage
     - Toast
-  - IIOCUtis/UTI (0.9.2):
+  - IIOCUtis/UTI (1.0.0):
     - FMDB
     - II18N
     - MJExtension
-    - SDWebImage (= 4.4.6)
+    - SDWebImage
     - Toast
   - MJExtension (3.0.17)
-  - SDWebImage (4.4.6):
-    - SDWebImage/Core (= 4.4.6)
-  - SDWebImage/Core (4.4.6)
+  - SDWebImage (5.2.0):
+    - SDWebImage/Core (= 5.2.0)
+  - SDWebImage/Core (5.2.0)
   - Toast (4.0.0)
 
 DEPENDENCIES:
@@ -106,9 +106,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   II18N: 323a17a6c4af02c6fed5d942dbdf5e540e2643b0
-  IIOCUtis: 514f638594112ac4e8e585b42585c0a62119a229
+  IIOCUtis: 94b8e8183a42531387089a675ae3bb2bff2012e2
   MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
-  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SDWebImage: 609192dcf3898c910a2848032372ead951e66364
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
 PODFILE CHECKSUM: 872ff57b2b17231c069ff7512646bbc139ce1718
