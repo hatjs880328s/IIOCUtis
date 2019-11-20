@@ -236,6 +236,9 @@
 #define IIAOPNBPServiceConfig     [NSString stringWithFormat:@"%@_%d.IIAOPNBPServiceconfig_1",[IMPUserModel activeInstance].enterprise.code,[IMPUserModel activeInstance].id]
 #define IIPitchServiceConfig     [NSString stringWithFormat:@"%@_%d.IIPitchServiceconfig_1",[IMPUserModel activeInstance].enterprise.code,[IMPUserModel activeInstance].id]
 #define IILOGUploadServiceConfig     [NSString stringWithFormat:@"%@_%d.IILOGUploadServiceconfig_1",[IMPUserModel activeInstance].enterprise.code,[IMPUserModel activeInstance].id]
+
+#define IIEnableCommonFunction     [NSString stringWithFormat:@"%@_%d.IIEnableCommonFunction_1",[IMPUserModel activeInstance].enterprise.code,[IMPUserModel activeInstance].id]
+
 #define kIsShowFeedback         [NSString stringWithFormat:@"%@_%d.isshowfeedback_1",[IMPUserModel activeInstance].enterprise.code,[IMPUserModel activeInstance].id]
 #define kIsShowCustomerSevice   [NSString stringWithFormat:@"%@_%d.isshowcustomersevice_1",[IMPUserModel activeInstance].enterprise.code,[IMPUserModel activeInstance].id]
 #define CommonFunctionsConfig   [NSString stringWithFormat:@"%@_%d.CommonFunctions_1",[IMPUserModel activeInstance].enterprise.code,[IMPUserModel activeInstance].id]
