@@ -3,72 +3,72 @@ PODS:
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
   - II18N (0.1.0)
-  - IIOCUtis (1.0.0):
+  - IIOCUtis (2.0.0):
     - FMDB
     - II18N
-    - IIOCUtis/AccessToken (= 1.0.0)
-    - IIOCUtis/Cache (= 1.0.0)
-    - IIOCUtis/Constant (= 1.0.0)
-    - IIOCUtis/GETDevice (= 1.0.0)
-    - IIOCUtis/IIMJRefresh (= 1.0.0)
-    - IIOCUtis/IIProgressHUD (= 1.0.0)
-    - IIOCUtis/IIRouteAlert (= 1.0.0)
-    - IIOCUtis/SBJSON (= 1.0.0)
-    - IIOCUtis/UserInfoDisplay (= 1.0.0)
-    - IIOCUtis/UTI (= 1.0.0)
+    - IIOCUtis/AccessToken (= 2.0.0)
+    - IIOCUtis/Cache (= 2.0.0)
+    - IIOCUtis/Constant (= 2.0.0)
+    - IIOCUtis/GETDevice (= 2.0.0)
+    - IIOCUtis/IIMJRefresh (= 2.0.0)
+    - IIOCUtis/IIProgressHUD (= 2.0.0)
+    - IIOCUtis/IIRouteAlert (= 2.0.0)
+    - IIOCUtis/SBJSON (= 2.0.0)
+    - IIOCUtis/UserInfoDisplay (= 2.0.0)
+    - IIOCUtis/UTI (= 2.0.0)
     - MJExtension
     - SDWebImage
     - Toast
-  - IIOCUtis/AccessToken (1.0.0):
-    - FMDB
-    - II18N
-    - MJExtension
-    - SDWebImage
-    - Toast
-  - IIOCUtis/Cache (1.0.0):
+  - IIOCUtis/AccessToken (2.0.0):
     - FMDB
     - II18N
     - MJExtension
     - SDWebImage
     - Toast
-  - IIOCUtis/Constant (1.0.0):
+  - IIOCUtis/Cache (2.0.0):
+    - FMDB
+    - II18N
+    - MJExtension
+    - SDWebImage
+    - Toast
+  - IIOCUtis/Constant (2.0.0):
     - FMDB
     - II18N
     - IIOCUtis/Cache
     - MJExtension
     - SDWebImage
     - Toast
-  - IIOCUtis/GETDevice (1.0.0):
+  - IIOCUtis/GETDevice (2.0.0):
     - FMDB
     - II18N
     - MJExtension
     - SDWebImage
     - Toast
-  - IIOCUtis/IIMJRefresh (1.0.0):
+  - IIOCUtis/IIMJRefresh (2.0.0):
     - FMDB
     - II18N
     - MJExtension
     - SDWebImage
     - Toast
-  - IIOCUtis/IIProgressHUD (1.0.0):
+  - IIOCUtis/IIProgressHUD (2.0.0):
     - FMDB
     - II18N
     - MJExtension
     - SDWebImage
     - Toast
-  - IIOCUtis/IIRouteAlert (1.0.0):
+  - IIOCUtis/IIRouteAlert (2.0.0):
     - FMDB
     - II18N
     - MJExtension
     - SDWebImage
     - Toast
-  - IIOCUtis/SBJSON (1.0.0):
+  - IIOCUtis/SBJSON (2.0.0):
     - FMDB
     - II18N
     - MJExtension
     - SDWebImage
     - Toast
-  - IIOCUtis/UserInfoDisplay (1.0.0):
+  - IIOCUtis/UserInfoDisplay (2.0.0):
     - FMDB
     - II18N
     - IIOCUtis/Cache
@@ -76,7 +76,7 @@ PODS:
     - MJExtension
     - SDWebImage
     - Toast
-  - IIOCUtis/UTI (1.0.0):
+  - IIOCUtis/UTI (2.0.0):
     - FMDB
     - II18N
     - MJExtension
@@ -106,7 +106,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   II18N: 323a17a6c4af02c6fed5d942dbdf5e540e2643b0
-  IIOCUtis: 94b8e8183a42531387089a675ae3bb2bff2012e2
+  IIOCUtis: a86794bd944524dc8935daed57987ac0eaf129b1
   MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
   SDWebImage: 609192dcf3898c910a2848032372ead951e66364
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
