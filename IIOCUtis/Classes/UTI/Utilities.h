@@ -186,7 +186,7 @@ typedef NS_ENUM(NSInteger, ETDeviceSeries) {
 + (void)changeViewFrameWhenKeyboardShow:(UIView *)myView;
 + (void)changeViewFrameWhenKeyboardHide:(UIView *)myView;
 
-//清除Web Cookie和缓存[UIWebView、WKWebView]
+//清除Web Cookie和缓存[WKWebView]
 + (void)deleteWebCache;
 
 @end

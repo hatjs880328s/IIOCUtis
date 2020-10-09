@@ -1144,9 +1144,8 @@ static NSMutableArray *viewControllersToBeDeleted;
     }
 }
 
-//清除Web Cookie和缓存[UIWebView、WKWebView]
+//清除Web Cookie和缓存[WKWebView]
 + (void)deleteWebCache {
-    //UIWebView
     for(NSHTTPCookie *cookie in [[NSHTTPCookieStorage sharedHTTPCookieStorage] cookies]) {
         [[NSHTTPCookieStorage sharedHTTPCookieStorage] deleteCookie:cookie];
     }
