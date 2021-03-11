@@ -1,6 +1,6 @@
 {
   "name": "IIOCUtis",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "summary": "记录oc中一些基础工具",
   "description": "IIOCUtis\n\n1.AccessToken\n2.GetDevice\n3.RouteAlert\n4.Utilities\n5.Impcache\n6.IMPUser & EnterpriseModel\n7.HUDProgress\n8.QueryUserDisplayInfoClass",
   "homepage": "https://github.com/hatjs880328s/IIOCUtis",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hatjs880328s/IIOCUtis.git",
-    "tag": "2.0.0"
+    "tag": "2.0.2"
   },
   "platforms": {
     "ios": "8.0"
@@ -30,9 +30,6 @@
 
     ],
     "SDWebImage": [
-
-    ],
-    "FMDB": [
 
     ],
     "MJExtension": [

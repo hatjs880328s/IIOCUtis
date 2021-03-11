@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1010"
+   LastUpgradeVersion = "1230"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6AF237051559533D294CC3B7CA968083"
-               BuildableName = "libIIOCUtis.a"
-               BlueprintName = "IIOCUtis"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "6003F589195388D20070C39A"
+               BuildableName = "IIOCUtis_Example.app"
+               BlueprintName = "IIOCUtis_Example"
+               ReferencedContainer = "container:IIOCUtis.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,15 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6AF237051559533D294CC3B7CA968083"
-            BuildableName = "libIIOCUtis.a"
-            BlueprintName = "IIOCUtis"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "6003F589195388D20070C39A"
+            BuildableName = "IIOCUtis_Example.app"
+            BlueprintName = "IIOCUtis_Example"
+            ReferencedContainer = "container:IIOCUtis.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -56,15 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6AF237051559533D294CC3B7CA968083"
-            BuildableName = "libIIOCUtis.a"
-            BlueprintName = "IIOCUtis"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "6003F589195388D20070C39A"
+            BuildableName = "IIOCUtis_Example.app"
+            BlueprintName = "IIOCUtis_Example"
+            ReferencedContainer = "container:IIOCUtis.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
